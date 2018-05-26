@@ -39,7 +39,7 @@ while(True):
                 z1=z1+180
                     
             cv2.circle(gray,(cx,cy),2,(0,0,0),-1)
-            gray=cv2.putText(gray,str(cx)+" "+str(cy)+" "+str(z1),(cx,cy), 1, 2,(0,0,0),2,cv2.LINE_AA)
+            gray=cv2.putText(gray,str(cx)+","+str(cy)+","+str(z1)+"deg",(cx,cy), 1, 2,(0,0,0),2,cv2.LINE_AA)
         for i in range(len(ids)):
             gray=cv2.putText(gray,str(ids[i-1]),(int(corners[i-1][0][0][0]),int(corners[i-1][0][0][1])), 1, 2,(0,0,0),2,cv2.LINE_AA)
             
