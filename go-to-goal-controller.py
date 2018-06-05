@@ -11,13 +11,18 @@ LOWER_BOUND_MARKER_ID = 9
 ROBOT_1_MARKER_ID = 11
 ROBOT_1_XBee_ADDR = '\x00\x01'
 
+ROBOT_2_MARKER_ID = 7
+ROBOT_2_XBee_ADDR = '\x00\x03'
+
 
 class XBeeComm:
 
     def __init__(self, com='COM3', baud=9600):
-        self.xbee = XBee(serial.Serial(com,baud))
+        #self.xbee = XBee(serial.Serial(com,baud))
+        pass
         
     def tx(self, data, dest='\x00\x01'):
+        #print(data); return
         self.xbee.tx(dest_addr=dest,data=data)
 
 
@@ -43,40 +48,86 @@ class Packets:
         self.data = []
 
     def createPacket(self):
-        packet = "<" + "".join(self.data) + ">"
+        packet = '<' + ''.join(self.data) + '>'
         return packet
 
 
 class PID:
 
-    def __init__(self):
-        cv2.namedWindow('image')
+    def __init__(self, robot_id):
 
-        cv2.createTrackbar('kp','image',0,500,nothing)
-        cv2.createTrackbar('ki','image',0,500,nothing)
-        cv2.createTrackbar('kd','image',0,500,nothing)
+        self.ROBOT_ID = robot_id
 
-        self.switch = '0 : ON \n1 : OFF'
-        cv2.createTrackbar(self.switch, 'image',0,1,nothing)
+        cv2.namedWindow(self.ROBOT_ID)
 
-        self.kp = cv2.getTrackbarPos('kp','image')
-        self.ki = cv2.getTrackbarPos('ki','image')
-        self.kd = cv2.getTrackbarPos('kd','image')
-        self.CLOSE = cv2.getTrackbarPos(self.switch,'image')
+        cv2.createTrackbar('kp',self.ROBOT_ID,0,500,nothing)
+        cv2.createTrackbar('ki',self.ROBOT_ID,0,500,nothing)
+        cv2.createTrackbar('kd',self.ROBOT_ID,0,500,nothing)
+
+        self.kp = cv2.getTrackbarPos('kp',self.ROBOT_ID)
+        self.ki = cv2.getTrackbarPos('ki',self.ROBOT_ID)
+        self.kd = cv2.getTrackbarPos('kd',self.ROBOT_ID)
 
     def setpoint(self, set_point):
         self.set_point = set_point
 
     def set_parameters(self):
-        self.kp = cv2.getTrackbarPos('kp','image')
-        self.ki = cv2.getTrackbarPos('ki','image')
-        self.kd = cv2.getTrackbarPos('kd','image')
-        self.CLOSE = cv2.getTrackbarPos(self.switch,'image')
+        self.kp = cv2.getTrackbarPos('kp',self.ROBOT_ID)
+        self.ki = cv2.getTrackbarPos('ki',self.ROBOT_ID)
+        self.kd = cv2.getTrackbarPos('kd',self.ROBOT_ID)
 
     def get_parameters(self):
         return self.kp, self.ki, self.kd
 
+
+class Robot(XBeeComm, Packets, PID):
+
+    def __init__(self, addr, marker_id):
+        self.ADDR = addr
+        self.MARKER_ID = marker_id
+
+        self.dest_x, self.dest_y = 0, 0
+        self.tail_x, self.tail_y, self.head_x, self.head_y, self.theta = (0,0,0,0,0)
+
+        self.pid = PID('ROBOT_'+str(marker_id))
+
+        self.packet = Packets()
+
+    def set_destination(self, x, y):
+        self.dest_x, self.dest_y = x, y
+
+    def get_distance(self, x, y):
+        return np.sqrt((self.head_x - x)**2 + (self.head_y - y)**2)
+
+    def send_info(self):
+        global frame
+
+        self.pid.set_parameters()
+
+        try:
+            self.tail_x, self.tail_y, self.head_x, self.head_y, self.theta = get_marker_angle(frame, (self.dest_x, self.dest_y), self.MARKER_ID)
+        except:
+            self.theta = 0
+
+        self.packet.push(('T', self.dest_x, self.dest_y))
+        self.packet.push(('P', self.pid.kp, self.pid.ki, self.pid.kd))
+        self.packet.push(('R', self.tail_x, self.tail_y, self.head_x, self.head_y))
+        self.packet.push(('A', self.theta+180))
+
+        packet_data = self.packet.createPacket()
+
+        comm.tx(packet_data, self.ADDR)
+
+        cv2.line(frame, (self.dest_x, self.dest_y), (self.tail_x, self.tail_y), (255, 255, 255), 1)
+        cv2.circle(frame, (self.dest_x, self.dest_y), 5, (0,0,255), thickness=-1)
+        cv2.circle(frame, (self.tail_x, self.tail_y), 5, (0,255,0), thickness=-1)
+        cv2.circle(frame, (self.head_x, self.head_y), 5, (0,255,0), thickness=-1)
+
+        self.packet.resetData()
+
+
 def get_aruco_markers(img):
+    global frame    
     aruco_dict = aruco.Dictionary_get(aruco.DICT_5X5_250)
     parameters =  aruco.DetectorParameters_create()
 
@@ -120,88 +171,86 @@ def get_marker_by_id(corners, ids, aruco_id):
     except:
         raise Exception("aruco with id " + str(aruco_id) + " not found")
 
-def get_marker_angle(frame, point, marker_id):
-    while(True):
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        try:
-            corners, ids = get_aruco_markers(gray)
-            corner_point = get_marker_by_id(corners, ids, marker_id)
+def get_marker_angle(img, point, marker_id):
+    try:
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        corners, ids = get_aruco_markers(gray)
+        corner_point = get_marker_by_id(corners, ids, marker_id)
 
-            Tx = int((corner_point[3][0] + corner_point[0][0])/2)
-            Ty = int((corner_point[3][1] + corner_point[0][1])/2)
+        Tx = int((corner_point[3][0] + corner_point[0][0])/2)
+        Ty = int((corner_point[3][1] + corner_point[0][1])/2)
 
-            Hx = int((corner_point[2][0] + corner_point[1][0])/2)
-            Hy = int((corner_point[2][1] + corner_point[1][1])/2)
+        Hx = int((corner_point[2][0] + corner_point[1][0])/2)
+        Hy = int((corner_point[2][1] + corner_point[1][1])/2)
 
-            cv2.line(gray, point, (Tx, Ty), 255, 1)
-            cv2.circle(gray, (Tx, Ty), 5, 255, thickness=-1)
-            cv2.circle(gray, (Hx, Hy), 5, 255, thickness=-1)
+        arucolength = np.sqrt((Tx-Hx)**2 + (Ty-Hy)**2)
+        tail_dist = np.sqrt((Tx-point[0])**2 + (Ty-point[1])**2)
+        head_dist = np.sqrt((Hx-point[0])**2 + (Hy-point[1])**2)
 
-            arucolength = np.sqrt((Tx-Hx)**2 + (Ty-Hy)**2)
-            tail_dist = np.sqrt((Tx-point[0])**2 + (Ty-point[1])**2)
-            head_dist = np.sqrt((Hx-point[0])**2 + (Hy-point[1])**2)
+        m2 = (Ty-Hy)/(Tx-Hx)
+        m1 = (Ty-point[1])/(Tx-point[0])
 
-            m2 = (Ty-Hy)/(Tx-Hx)
-            m1 = (Ty-point[1])/(Tx-point[0])
+        theta = np.arctan((m2-m1)/(1+m1*m2))*180/np.pi
 
-            theta = np.arctan((m2-m1)/(1+m1*m2))*180/np.pi
-
-            if head_dist > np.sqrt(arucolength**2 + tail_dist**2):
-                if theta < 0:
-                    theta = 180 + theta
-                elif theta >0:
-                    theta = -180 + theta
-                else:
-                    theta = 180
-
-            gray = aruco.drawDetectedMarkers(gray, corners)
-        except:
-            Tx,Ty,Hx,Hy,theta= (0,0,0,0,0)
-
-        cv2.imshow('image',gray)
-
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
-
-        break
+        if head_dist > np.sqrt(arucolength**2 + tail_dist**2):
+            if theta < 0:
+                theta = 180 + theta
+            elif theta > 0:
+                theta = -180 + theta
+            else:
+                theta = 180
+    except Exception as e:
+        raise Exception(e)
 
     return Tx,Ty,Hx,Hy,int(theta)
+
+def mouse_events(event, x, y, flags, param):
+    global dest_x
+    global dest_y
+    
+    if event == cv2.EVENT_LBUTTONDBLCLK:
+        prev_dist = 99999
+        robo = None
+        for i in robots:
+            dist = i.get_distance(x,y)
+            if dist < prev_dist:
+                prev_dist = dist
+                robo = i
+        
+        robo.set_destination(x,y)
 
 def nothing(x):
     pass
 
 
+global frame
+
 cap = cv2.VideoCapture('/dev/video1')
 
-dest_x = int(input("target_x="))
-dest_y = int(input("target_y="))
-point=(dest_x, dest_y)
+cv2.namedWindow('image')
+cv2.setMouseCallback('image', mouse_events)
 
-pid = PID()
 comm = XBeeComm()
-packet = Packets()
+
+robots = [
+    Robot(ROBOT_1_XBee_ADDR, ROBOT_1_MARKER_ID),
+    Robot(ROBOT_2_XBee_ADDR, ROBOT_2_MARKER_ID),
+    ]
 
 while(1):
     ret, frame = cap.read()
-    frame = get_arena(frame)
+    try:
+        frame = get_arena(frame)
+    except:
+        pass
 
-    Tx,Ty,Hx,Hy,theta = get_marker_angle(frame, point,ROBOT_1_MARKER_ID)
+    for i in robots:
+        i.send_info()
 
-    pid.set_parameters()
+    cv2.imshow('image',frame)
 
-    packet.push(('T', dest_x, dest_y))
-    packet.push(('P', pid.kp, pid.ki, pid.kd))
-    packet.push(('R', Hx, Hy, Tx, Ty))
-    packet.push(('A', theta+180))
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
 
-    packet_data = packet.createPacket()
-
-    comm.tx(packet_data)
-
-    packet.resetData()
-
-    if pid.CLOSE != 0:
-            break
-        
 cap.release()
 cv2.destroyAllWindows()
