@@ -1,0 +1,88 @@
+\documentclass[10pt, a4paper]{beamer}
+
+\usetheme{Berkeley}
+\usecolortheme{sidebartab}
+
+\begin{document}
+	\setbeamertemplate{sidebar left}{}
+	\title{Progress Presentation-I}
+	\subtitle{e-Yantra Summer Internship-2018 \\ $ $\textbf{ A System for Solving Jigsaw Puzzle using Multiple Robots}$ $}
+	\author{$ $Aniket Navlur$ $\\$ $Ashis kumar Maharana$ $\\$ $Kiran S Patil$ $\\
+	Mentor: $ $Abhinav Sarkar , Kalind Karia$ $}
+	\institute{IIT Bombay}
+	\date{\today}
+	%\addtobeamertemplate{sidebar left}{}{\includegraphics[scale = 0.3]{logowithtext.png}}
+	\frame{\titlepage}
+
+\setbeamertemplate{sidebar left}[sidebar theme]
+\section{Overview of Project}
+\begin{frame}{Overview of Project}
+	
+	\begin{itemize}
+		\item A System for Solving Jigsaw Puzzle using Multiple Robots
+		\item Objective: The prime motive of this project is to develop a multi Robot based Puzzle Solver system that can solve a Jigsaw puzzle.
+		\item Deliverables : \begin{enumerate}
+		\item  Solving any Jigsaw puzzle (building a complete solution) 
+		\item 	Maintaining Wiki on GitHub for each day progress 
+		\item 	Documentation (Software/Hardware) 
+		\end{enumerate}
+	\end{itemize}
+\end{frame}
+
+\section{Overview of Task}
+\begin{frame}{Overview of Task}
+	\begin{tabular}{| c | p{18 em} | c |}\hline
+	\textbf{Task No.} & \hspace{7em}\textbf{Task} & \textbf{Deadline} \\
+	& & (in Days)\\\hline
+	1 &\small{ Python, OpenCV, Firebird V Intro,\hspace{5 em}Xbee Communication} & 3 \\\hline
+	2 &\small{ Pose and orientation calculation of 2 Firebird robots using color/Aruco markers }& 4\\\hline
+	3 &\small{ Programming the Go-To-Goal Controller for single Firebird V robot. Tuning the PID\hspace{3 em} values to perfection }& 4\\\hline
+	4 &\small{ Implementing path planning with Firebird V where obstacles have been placed in arena }& 3\\\hline
+	5 &\small{ Detection of jigsaw puzzle blocks using\hspace{3 em}Template Matching} & 2\\\hline
+	6 &\small{ Pick and place of blocks - gripper mechanism building }& 4\\\hline
+	7 &\small{ Implementing the entire solution for a given\hspace{3 em}jigsaw puzzle }& 5\\\hline
+	8 &\small{ Documentation and reporting results }& 4\\\hline
+	\end{tabular}
+	
+\end{frame}
+
+\section{Task Accomplished}
+\begin{frame}{Task Accomplished}
+	\begin{itemize}
+		\item Task no.1(Python, OpenCV, Firebird V, Xbee Communication)
+		\begin{itemize}
+		\item Python and Python libraries ( pyserial, xbee )
+		\item Xbee configuration and communication in XCTU
+		\end{itemize}
+		\item Task no.2  Robot pose and orientation using Aruco marker
+		\item Cropping the arena of interest(using Aruco markers)
+		\item Task no.3 Go-To-Goal Controller and PID tuning
+		\item Task no.5 template matching
+		
+	\end{itemize}
+\end{frame}
+
+\section{Challenges Faced}
+\begin{frame}{Challenges Faced}
+	\begin{itemize}
+	    \item finding the right angle(slope) with math library(python,c)
+		\item finding the right library for serial communication(serial,pyserial,xbee,digi-xbee)
+		\item understanding parameters of Xbee ('MY')
+		\item LCD printing the data received on FireBird V 
+	\end{itemize}
+\end{frame}
+
+\section{Future Plans}
+\begin{frame}{Future Plans}
+	\begin{itemize}
+		\item An interface for Point-And-Go controller for FireBird V
+		\item Two robots collaborating to take a single box to its destination
+	\end{itemize}
+\end{frame}
+
+
+\section{Thank You}
+\begin{frame}{Thank You}
+	\centering THANK YOU !!!
+\end{frame}
+\end{document}
