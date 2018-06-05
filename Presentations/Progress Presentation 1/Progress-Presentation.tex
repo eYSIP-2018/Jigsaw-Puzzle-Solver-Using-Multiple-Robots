@@ -7,7 +7,7 @@
 	\setbeamertemplate{sidebar left}{}
 	\title{Progress Presentation-I}
 	\subtitle{e-Yantra Summer Internship-2018 \\ $ $\textbf{ A System for Solving Jigsaw Puzzle using Multiple Robots}$ $}
-	\author{$ $Aniket Navlur$ $\\$ $Ashis kumar Maharana$ $\\$ $Kiran S Patil$ $\\
+	\author{$ $Aniket Anantraj Navlur$ $\\$ $Ashis kumar Maharana$ $\\$ $Kiran S Patil$ $\\
 	Mentor: $ $Abhinav Sarkar , Kalind Karia$ $}
 	\institute{IIT Bombay}
 	\date{\today}
@@ -19,11 +19,11 @@
 \begin{frame}{Overview of Project}
 	
 	\begin{itemize}
-		\item A System for Solving Jigsaw Puzzle using Multiple Robots
-		\item Objective: The prime motive of this project is to develop a multi Robot based Puzzle Solver system that can solve a Jigsaw puzzle.
+		\item A System for Solving Jigsaw Puzzle using Multiple Robots\pause
+		\item Objective: The prime motive of this project is to develop a multi Robot based Puzzle Solver system that can solve a Jigsaw puzzle.\pause
 		\item Deliverables : \begin{enumerate}
-		\item  Solving any Jigsaw puzzle (building a complete solution) 
-		\item 	Maintaining Wiki on GitHub for each day progress 
+		\item  Solving any Jigsaw puzzle (building a complete solution)\pause
+		\item 	Maintaining Wiki on GitHub for each day progress\pause
 		\item 	Documentation (Software/Hardware) 
 		\end{enumerate}
 	\end{itemize}
@@ -56,6 +56,11 @@
 		\end{itemize}
 		\item Task no.2  Robot pose and orientation using Aruco marker
 		\item Cropping the arena of interest(using Aruco markers)
+		\item Sending data packets to firebird robots and parsing the different values from that
+		\begin{itemize}
+		\item The data packet is formed by the following values...
+		$<T|tar_x|tar_y|P|kp|ki|kd|R|head_x|head_y|tail_x|tail_y|A|deg>$ 
+		\end{itemize} 
 		\item Task no.3 Go-To-Goal Controller and PID tuning
 		\item Task no.5 template matching
 		
@@ -75,8 +80,7 @@
 \section{Future Plans}
 \begin{frame}{Future Plans}
 	\begin{itemize}
-		\item An interface for Point-And-Go controller for FireBird V
-		\item Two robots collaborating to take a single box to its destination
+		\item Two robots push a single box to take it to its destination
 	\end{itemize}
 \end{frame}
 
