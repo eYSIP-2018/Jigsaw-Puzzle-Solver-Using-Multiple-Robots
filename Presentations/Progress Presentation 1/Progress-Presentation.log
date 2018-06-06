@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.14)  6 JUN 2018 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.14)  6 JUN 2018 17:33
 entering extended mode
 **./Progress-Presentation.tex
 (Progress-Presentation.tex
@@ -1417,7 +1417,7 @@ Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
 
 [11
 
-]<<VPlayer.swf>><<image.mp4>> [12
+]<<VPlayer.swf>><<image.mp4>><<img.mp4>> [12
 
 ] [13
 
@@ -1429,14 +1429,12 @@ Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
 
 ] [17
 
-] [18
+]
+[18
 
 ] [19
 
-]
-[20
-
-] [21
+] [20
 
 ]
 \tf@nav=\write6
@@ -1455,36 +1453,45 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
-(Progress-Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+(Progress-Presentation.aux
+*************************************************
+* pdfbase warning: "rerun"
+* 
+* Rerun to get internal references right!
+*************************************************
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
 Package rerunfilecheck Info: File `Progress-Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: CE4619CB3AAAD8353595590AAF727FCD;347.
  ) 
 Here is how much of TeX's memory you used:
- 30376 strings out of 493305
- 611365 string characters out of 3129802
- 692192 words of memory out of 3000000
- 33385 multiletter control sequences out of 15000+200000
+ 30377 strings out of 493305
+ 611402 string characters out of 3129802
+ 692135 words of memory out of 3000000
+ 33386 multiletter control sequences out of 15000+200000
  540937 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,70p,790b,927s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi9.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmss10.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Ashis/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Ashis/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Ashis
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+pdfTeX warning (dest): name{Navigation21} has been referenced but does not ex
+ist, replaced by a fixed one
+
 <C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmssi8.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmssi9.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Progress-Presentation.pdf (21 pages, 19163544 bytes).
+m/cmmi9.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmss10.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Ashis/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Ashis/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Ashis/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C
+:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmssi8.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmssi9.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Progress-Presentation.pdf (20 pages, 28928430 bytes).
 PDF statistics:
- 982 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 943 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

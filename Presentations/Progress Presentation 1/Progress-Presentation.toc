@@ -3,5 +3,5 @@
 \beamer@sectionintoc {3}{Task Accomplished}{4}{0}{3}
 \beamer@sectionintoc {4}{Videos}{12}{0}{4}
 \beamer@sectionintoc {5}{Challenges Faced}{13}{0}{5}
-\beamer@sectionintoc {6}{Future Plans}{18}{0}{6}
-\beamer@sectionintoc {7}{Thank You}{21}{0}{7}
+\beamer@sectionintoc {6}{Future Plans}{17}{0}{6}
+\beamer@sectionintoc {7}{Thank You}{20}{0}{7}
