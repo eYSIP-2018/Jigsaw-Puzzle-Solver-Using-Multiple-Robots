@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.14)  6 JUN 2018 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.14)  6 JUN 2018 15:45
 entering extended mode
 **./Progress-Presentation.tex
 (Progress-Presentation.tex
@@ -1297,14 +1297,10 @@ Package pdftex.def Info: Screenshot_org.png  used on input line 79.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+(pdftex.def)             Requested size: 76.81735pt x 63.94966pt.
 
 Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
  [][][] 
- []
-
-
-Overfull \vbox (11.39793pt too high) detected at line 79
  []
 
 [4
@@ -1317,14 +1313,10 @@ Package pdftex.def Info: Screenshot_org.png  used on input line 79.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+(pdftex.def)             Requested size: 76.81735pt x 63.94966pt.
 
 Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
  [][][] 
- []
-
-
-Overfull \vbox (11.39793pt too high) detected at line 79
  []
 
 [5
@@ -1337,14 +1329,10 @@ Package pdftex.def Info: Screenshot_org.png  used on input line 79.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+(pdftex.def)             Requested size: 76.81735pt x 63.94966pt.
 
 Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
  [][][] 
- []
-
-
-Overfull \vbox (11.39793pt too high) detected at line 79
  []
 
 [6
@@ -1357,14 +1345,10 @@ Package pdftex.def Info: Screenshot_org.png  used on input line 79.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+(pdftex.def)             Requested size: 76.81735pt x 63.94966pt.
 
 Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
  [][][] 
- []
-
-
-Overfull \vbox (11.39793pt too high) detected at line 79
  []
 
 [7
@@ -1377,14 +1361,10 @@ Package pdftex.def Info: Screenshot_org.png  used on input line 79.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+(pdftex.def)             Requested size: 76.81735pt x 63.94966pt.
 
 Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
  [][][] 
- []
-
-
-Overfull \vbox (11.39793pt too high) detected at line 79
  []
 
 [8
@@ -1397,14 +1377,10 @@ Package pdftex.def Info: Screenshot_org.png  used on input line 79.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+(pdftex.def)             Requested size: 76.81735pt x 63.94966pt.
 
 Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
  [][][][] 
- []
-
-
-Overfull \vbox (11.39793pt too high) detected at line 79
  []
 
 [9
@@ -1417,21 +1393,31 @@ Package pdftex.def Info: Screenshot_org.png  used on input line 79.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+(pdftex.def)             Requested size: 76.81735pt x 63.94966pt.
 
 Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
  [][][][][] 
  []
 
-
-Overfull \vbox (11.39793pt too high) detected at line 79
- []
-
 [10
 
-]<<VPlayer.swf>><<image.mp4>> [11
+]
+File: Screenshot_org.png Graphic file (type png)
+<use Screenshot_org.png>
+Package pdftex.def Info: Screenshot_org.png  used on input line 79.
+(pdftex.def)             Requested size: 159.14888pt x 89.53622pt.
+File: xbee_packet.png Graphic file (type png)
+<use xbee_packet.png>
+Package pdftex.def Info: xbee_packet.png  used on input line 79.
+(pdftex.def)             Requested size: 76.81735pt x 63.94966pt.
 
-] [12
+Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
+ [][][][][] 
+ []
+
+[11
+
+]<<VPlayer.swf>><<image.mp4>> [12
 
 ] [13
 
@@ -1445,10 +1431,12 @@ Overfull \vbox (11.39793pt too high) detected at line 79
 
 ] [18
 
-]
-[19
+] [19
 
-] [20
+]
+[20
+
+] [21
 
 ]
 \tf@nav=\write6
@@ -1476,9 +1464,9 @@ Package rerunfilecheck Info: File `Progress-Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: CE4619CB3AAAD8353595590AAF727FCD;347.
  ) 
 Here is how much of TeX's memory you used:
- 30374 strings out of 493305
- 611346 string characters out of 3129802
- 691910 words of memory out of 3000000
+ 30376 strings out of 493305
+ 611365 string characters out of 3129802
+ 692192 words of memory out of 3000000
  33385 multiletter control sequences out of 15000+200000
  540937 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1494,9 +1482,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Ashis
 m/cmssi8.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmssi9.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Progress-Presentation.pdf (20 pages, 19154226 bytes).
+Output written on Progress-Presentation.pdf (21 pages, 19163544 bytes).
 PDF statistics:
- 942 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 982 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
  267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
