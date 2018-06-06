@@ -1,11 +1,11 @@
 \documentclass[10pt,a4paper]{beamer}
 
-\usetheme{Frankfurt}
+\usetheme{Berkeley}
 \usecolortheme{sidebartab}
 
 \usepackage{graphicx}
 \usepackage{movie15,media9}
-
+\setbeamertemplate{caption}[numbered]
 
 \begin{document}
 	\setbeamertemplate{sidebar left}{}
@@ -26,13 +26,13 @@
 		\item Project Name: A System for Solving Jigsaw Puzzle using Multiple Robots
 		\item Objective:
 		\begin{itemize}
-			\item To develop an autonomous system that can solve any Jigsaw Puzzle given its image using multiple robots. 
+			\item To develop an autonomous system that can solve any Jigsaw Puzzle given its image using multiple robots 
 		\end{itemize}
 		\item Deliverables:
 		\begin{enumerate}
 			\item Go-to-Goal controller for robot in a given frame
 			\item Autonomous solving of any Jigsaw Puzzle given just its image
-			\item Proper documentation and report on the system.
+			\item Proper documentation and report on the system
 		\end{enumerate}
 	\end{itemize}
 \end{frame}
@@ -54,45 +54,50 @@
 \end{frame}
 
 \section{Task Accomplished}
-\begin{frame}{Task Accomplished}
-\begin{columns}
-\column{0.5\textwidth}
-	\begin{itemize}
-		\item Established communication with the robot using XBee.\pause
-		\item Found the pose and orientation of the robot using ArUco markers.\pause
-		\item Created the data packets to be sent, received and parsed correctly\pause
-		\item Tuned the PID values to perfection.\pause
-		\item Developed a Go-To-Goal controller for multiple robots.\pause
-		
-	\end{itemize}
-	
-\column{0.5\textwidth}
+\begin{frame}[allowframebreaks]{Task Accomplished}
+\begin{itemize}
+\item Established communication with the robot using XBee
+\item Found the pose and orientation of the robot using ArUco markers
 \begin{figure}
-\includegraphics[height=0.35\textheight]{Screenshot_org.png}\pause\vspace{1 em}
-\includegraphics[height=0.25\textheight, width=0.5\textwidth]{xbee_packet.png}
-
-\end{figure}	
-\end{columns}
-\vspace{0.7 em}\pause
-The data packet is formed by the following values
-\small{$<T\hspace{0.25 em}tar_x|tar_y|P\hspace{0.25 em}kp|ki|kd|R\hspace{0.25 em}head_x|head_y|tail_x|tail_y|A\hspace{0.25 em}deg|>$}
+\includegraphics[height=0.6\textheight, width=0.7\textwidth]{image_screenshot2.png}\caption{ArUco id, center position, orientation}
+\end{figure}
+\item Formed the data packets to be sent, received and parsed correctly
+\begin{figure}
+\includegraphics[height=0.45\textheight, width=0.65\textwidth]{capture.png}\caption{Data Packets}
+\end{figure}
+\small{The data packet is formed by the following values}
+\small{$<T|tar_x|tar_y|P|kp|ki|kd|R|head_x|head_y|tail_x|tail_y|A|deg|>$}
+\item Tuned the PID values to perfection
+\item Developed a Go-To-Goal controller for multiple robots
+\end{itemize}
 \end{frame}
 
 \section{Videos}
-\begin{frame}{Demo}
+\begin{frame}{Videos}
 \begin{columns}
 \column{0.5\textwidth}
 \begin{figure}
 
 \includemedia[
-     width=5cm,height=5cm,
+     width=5cm,height=3cm,
      activate=pageopen,
      addresource=image.mp4,
      flashvars={
          source=image.mp4
-        &autoPlay=true
+        &autoPlay=false
      }
-]{}{VPlayer.swf}
+]{}{VPlayer.swf}\vspace{-1 em}\caption{\small{PID tuned}}
+\end{figure}\vspace{-2 em}
+\begin{figure}
+\includemedia[
+     width=5cm,height=3cm,
+     activate=pageopen,
+     addresource=imgi.mp4,
+     flashvars={
+         source=imgi.mp4
+        &autoPlay=false
+     }
+]{}{VPlayer.swf}\vspace{-1 em}\caption{\small{showing error angle being corrected}}
 \end{figure}
 \column{0.5\textwidth}
 \begin{figure}
@@ -103,9 +108,9 @@ The data packet is formed by the following values
      addresource=img.mp4,
      flashvars={
          source=img.mp4
-        &autoPlay=true
+        &autoPlay=false
      }
-]{}{VPlayer.swf}
+]{}{VPlayer.swf}\caption{travelling to the nearest node}
 \end{figure}
 
 \end{columns}
@@ -115,19 +120,19 @@ The data packet is formed by the following values
 \section{Challenges Faced}
 \begin{frame}{Challenges Faced}
 	\begin{itemize}
-		\item Determining the angle of ArUco Marker in the frame with proper resolution.\pause
+		\item Determining the angle of ArUco Marker in the frame with proper resolution\pause
 		\item Finding the right library for serial communication\pause
-		\item Understanding the parameters of Xbee('MY')\pause
-		\item Creating data packets to hold the information about robot(its orientation, position, etc...) and parsing it once received by the robot.
+		\item Understanding the parameters of Xbee('DH','DL','MY',channel$=$'C', API, AT, etc...)\pause
+		\item Creating data packets to hold the information about robot (its orientation, position, etc...) and parsing it once received by the robot.
 	\end{itemize}
 \end{frame}
 
 \section{Future Plans}
 \begin{frame}{Future Plans}
 	\begin{itemize}
-		\item Path Planning of Robot.\pause
-		\item Designing and building Gripper Mechanism to pick and place puzzle pieces and implementing the entire solution.\pause
-		\item Solve a Multi-Robot Cooperative Box-pushing problem.
+		\item Path Planning of Robot\pause
+		\item Designing and building Gripper Mechanism to pick and place Jigsaw blocks and implementing the entire solution for Jigsaw puzzle\pause
+		\item Solve a Multi-Robot Cooperative Box-pushing problem
 	\end{itemize}
 \end{frame}
 
