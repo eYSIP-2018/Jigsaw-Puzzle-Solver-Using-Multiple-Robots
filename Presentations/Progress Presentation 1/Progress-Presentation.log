@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.14)  6 JUN 2018 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.14)  6 JUN 2018 15:31
 entering extended mode
 **./Progress-Presentation.tex
 (Progress-Presentation.tex
@@ -738,18 +738,15 @@ themedefault.sty"
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerouter
 themedefault.sty")))
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamertheme
-Berkeley.sty"
+Frankfurt.sty"
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerouter
-themesidebar.sty"
-\beamer@sidebarwidth=\dimen190
-\beamer@headheight=\dimen191
-)
+themesmoothbars.sty")
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerinner
-themerectangles.sty")
+themerounded.sty")
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamercolor
-themewhale.sty")
+themeorchid.sty")
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamercolor
-themeorchid.sty"))
+themewhale.sty"))
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamercolor
 themesidebartab.sty")
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\movie15\movie15.st
@@ -768,15 +765,15 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 \@MXV@includes=\count157
 \@MXV@players=\count158
 \@MXV@links=\count159
-\@MXV@width=\dimen192
-\@MXV@height=\dimen193
-\@MXV@depth=\dimen194
-\@MXV@totalheight=\dimen195
-\@MXV@@boxdepth=\dimen196
-\@MXV@traiselen=\dimen197
-\@MXV@braiselen=\dimen198
-\@MXV@start=\dimen199
-\@MXV@end=\dimen256
+\@MXV@width=\dimen190
+\@MXV@height=\dimen191
+\@MXV@depth=\dimen192
+\@MXV@totalheight=\dimen193
+\@MXV@@boxdepth=\dimen194
+\@MXV@traiselen=\dimen195
+\@MXV@braiselen=\dimen196
+\@MXV@start=\dimen197
+\@MXV@end=\dimen198
 \@MXV@textbox=\box53
 )
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\media9\media9.sty"
@@ -798,12 +795,12 @@ Package: expl3 2018-06-01 L3 programming layer (code)
 \l__iow_line_target_int=\count168
 \l__iow_one_indent_int=\count169
 \l__iow_indent_int=\count170
-\c_zero_dim=\dimen257
-\c_max_dim=\dimen258
-\l_tmpa_dim=\dimen259
-\l_tmpb_dim=\dimen260
-\g_tmpa_dim=\dimen261
-\g_tmpb_dim=\dimen262
+\c_zero_dim=\dimen199
+\c_max_dim=\dimen256
+\l_tmpa_dim=\dimen257
+\l_tmpb_dim=\dimen258
+\g_tmpa_dim=\dimen259
+\g_tmpb_dim=\dimen260
 \c_zero_skip=\skip57
 \c_max_skip=\skip58
 \l_tmpa_skip=\skip59
@@ -818,7 +815,7 @@ Package: expl3 2018-06-01 L3 programming layer (code)
 \g_tmpb_muskip=\muskip17
 \l_keys_choice_int=\count171
 \l__intarray_loop_int=\count172
-\c__intarray_sp_dim=\dimen263
+\c__intarray_sp_dim=\dimen261
 \g__intarray_font_int=\count173
 \c__fp_leading_shift_int=\count174
 \c__fp_middle_shift_int=\count175
@@ -893,23 +890,23 @@ Package: expl3 2018-06-01 L3 programming layer (code)
 \l_tmpb_box=\box56
 \g_tmpa_box=\box57
 \g_tmpb_box=\box58
-\l__box_top_dim=\dimen264
-\l__box_bottom_dim=\dimen265
-\l__box_left_dim=\dimen266
-\l__box_right_dim=\dimen267
-\l__box_top_new_dim=\dimen268
-\l__box_bottom_new_dim=\dimen269
-\l__box_left_new_dim=\dimen270
-\l__box_right_new_dim=\dimen271
+\l__box_top_dim=\dimen262
+\l__box_bottom_dim=\dimen263
+\l__box_left_dim=\dimen264
+\l__box_right_dim=\dimen265
+\l__box_top_new_dim=\dimen266
+\l__box_bottom_new_dim=\dimen267
+\l__box_left_new_dim=\dimen268
+\l__box_right_new_dim=\dimen269
 \l__box_internal_box=\box59
 \l__coffin_internal_box=\box60
-\l__coffin_internal_dim=\dimen272
-\l__coffin_offset_x_dim=\dimen273
-\l__coffin_offset_y_dim=\dimen274
-\l__coffin_x_dim=\dimen275
-\l__coffin_y_dim=\dimen276
-\l__coffin_x_prime_dim=\dimen277
-\l__coffin_y_prime_dim=\dimen278
+\l__coffin_internal_dim=\dimen270
+\l__coffin_offset_x_dim=\dimen271
+\l__coffin_offset_y_dim=\dimen272
+\l__coffin_x_dim=\dimen273
+\l__coffin_y_dim=\dimen274
+\l__coffin_x_prime_dim=\dimen275
+\l__coffin_y_prime_dim=\dimen276
 \c_empty_coffin=\box61
 \l__coffin_aligned_coffin=\box62
 \l__coffin_aligned_internal_coffin=\box63
@@ -918,17 +915,17 @@ Package: expl3 2018-06-01 L3 programming layer (code)
 \l__coffin_display_coffin=\box66
 \l__coffin_display_coord_coffin=\box67
 \l__coffin_display_pole_coffin=\box68
-\l__coffin_display_offset_dim=\dimen279
-\l__coffin_display_x_dim=\dimen280
-\l__coffin_display_y_dim=\dimen281
+\l__coffin_display_offset_dim=\dimen277
+\l__coffin_display_x_dim=\dimen278
+\l__coffin_display_y_dim=\dimen279
 \g__file_internal_ior=\read2
-\l__coffin_bounding_shift_dim=\dimen282
-\l__coffin_left_corner_dim=\dimen283
-\l__coffin_right_corner_dim=\dimen284
-\l__coffin_bottom_corner_dim=\dimen285
-\l__coffin_top_corner_dim=\dimen286
-\l__coffin_scaled_total_height_dim=\dimen287
-\l__coffin_scaled_width_dim=\dimen288
+\l__coffin_bounding_shift_dim=\dimen280
+\l__coffin_left_corner_dim=\dimen281
+\l__coffin_right_corner_dim=\dimen282
+\l__coffin_bottom_corner_dim=\dimen283
+\l__coffin_top_corner_dim=\dimen284
+\l__coffin_scaled_total_height_dim=\dimen285
+\l__coffin_scaled_width_dim=\dimen286
 \l__seq_internal_a_int=\count308
 \l__seq_internal_b_int=\count309
 )
@@ -965,9 +962,9 @@ Package: ocgbase 2018/04/06 v0.13 support package for ocgx2.sty
 \g_ocgbase_nd_int=\count319
 )
 \l_mix_poster_box=\box69
-\g_mix_wd_dim=\dimen289
-\g_mix_ht_dim=\dimen290
-\g_mix_dp_dim=\dimen291
+\g_mix_wd_dim=\dimen287
+\g_mix_ht_dim=\dimen288
+\g_mix_dp_dim=\dimen289
 \g_mix_rmcnt_int=\count320
 \l_mix_viewcnt_int=\count321
 \g@mix@page@int=\count322
@@ -979,7 +976,7 @@ Package: ocgbase 2018/04/06 v0.13 support package for ocgx2.sty
 . Defining command \addmediapath with sig. 'm' on line 804.
 .................................................
 \l_mix_pbtn_box=\box70
-\mix@btn@dim=\dimen292
+\mix@btn@dim=\dimen290
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1017,14 +1014,14 @@ LaTeX Font Info:    ... okay on input line 10.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(59.22636pt, 290.74263pt, 14.22636pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=290.74263pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-13.04362pt
-* \evensidemargin=-13.04362pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1048,13 +1045,13 @@ LaTeX Font Info:    ... okay on input line 10.
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count326
-\scratchdimen=\dimen293
+\scratchdimen=\dimen291
 \scratchbox=\box71
 \nofMPsegments=\count327
 \nofMParguments=\count328
 \everyMPshowfont=\toks43
 \MPscratchCnt=\count329
-\MPscratchDim=\dimen294
+\MPscratchDim=\dimen292
 \MPnumerator=\count330
 \makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks44
@@ -1189,8 +1186,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\
 pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen295
-\pgf@nodesepend=\dimen296
+\pgf@nodesepstart=\dimen293
+\pgf@nodesepend=\dimen294
 )
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\
 pgfcomp-version-1-18.sty"
@@ -1212,8 +1209,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 ("C:\Users\Ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
 .code.tex")
-\pgffor@iter=\dimen297
-\pgffor@skip=\dimen298
+\pgffor@iter=\dimen295
+\pgffor@skip=\dimen296
 \pgffor@stack=\toks45
 \pgffor@toks=\toks46
 ))
@@ -1225,14 +1222,14 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 flibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count333
-\pgfplotmarksize=\dimen299
+\pgfplotmarksize=\dimen297
 )
-\tikz@lastx=\dimen300
-\tikz@lasty=\dimen301
-\tikz@lastxsaved=\dimen302
-\tikz@lastysaved=\dimen303
-\tikzleveldistance=\dimen304
-\tikzsiblingdistance=\dimen305
+\tikz@lastx=\dimen298
+\tikz@lasty=\dimen299
+\tikz@lastxsaved=\dimen300
+\tikz@lastysaved=\dimen301
+\tikzleveldistance=\dimen302
+\tikzsiblingdistance=\dimen303
 \tikz@figbox=\box74
 \tikz@figbox@bg=\box75
 \tikz@tempbox=\box76
@@ -1274,9 +1271,9 @@ line 19.
 mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [1
+) [1{C:/Users/Ashis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-{C:/Users/Ashis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+] [2
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
@@ -1288,91 +1285,149 @@ Underfull \hbox (badness 2856) in paragraph at lines 54--54
 []\OT1/cmss/m/n/9 Detection of jig-saw puz-zle blocks us-ing
  []
 
-
-Overfull \hbox (1.36356pt too wide) in paragraph at lines 54--54
-[][]  
- []
-
 [3
 
 ]
-<Screenshot_org.png, id=142, 1927.2pt x 1084.05pt>
+<Screenshot_org.png, id=198, 1927.2pt x 1084.05pt>
 File: Screenshot_org.png Graphic file (type png)
 <use Screenshot_org.png>
 Package pdftex.def Info: Screenshot_org.png  used on input line 79.
-(pdftex.def)             Requested size: 139.44641pt x 78.45268pt.
-<xbee_packet.png, id=143, 362.10281pt x 339.51843pt>
+(pdftex.def)             Requested size: 159.14888pt x 89.53622pt.
+<xbee_packet.png, id=199, 362.10281pt x 339.51843pt>
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 83.66866pt x 78.45268pt.
- [4
+(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+
+Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
+ [][][] 
+ []
+
+
+Overfull \vbox (11.39793pt too high) detected at line 79
+ []
+
+[4
 
  <./Screenshot_org.png> <./xbee_packet.png>]
 File: Screenshot_org.png Graphic file (type png)
 <use Screenshot_org.png>
 Package pdftex.def Info: Screenshot_org.png  used on input line 79.
-(pdftex.def)             Requested size: 139.44641pt x 78.45268pt.
+(pdftex.def)             Requested size: 159.14888pt x 89.53622pt.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 83.66866pt x 78.45268pt.
- [5
+(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+
+Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
+ [][][] 
+ []
+
+
+Overfull \vbox (11.39793pt too high) detected at line 79
+ []
+
+[5
 
 ]
 File: Screenshot_org.png Graphic file (type png)
 <use Screenshot_org.png>
 Package pdftex.def Info: Screenshot_org.png  used on input line 79.
-(pdftex.def)             Requested size: 139.44641pt x 78.45268pt.
+(pdftex.def)             Requested size: 159.14888pt x 89.53622pt.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 83.66866pt x 78.45268pt.
- [6
+(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+
+Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
+ [][][] 
+ []
+
+
+Overfull \vbox (11.39793pt too high) detected at line 79
+ []
+
+[6
 
 ]
 File: Screenshot_org.png Graphic file (type png)
 <use Screenshot_org.png>
 Package pdftex.def Info: Screenshot_org.png  used on input line 79.
-(pdftex.def)             Requested size: 139.44641pt x 78.45268pt.
+(pdftex.def)             Requested size: 159.14888pt x 89.53622pt.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 83.66866pt x 78.45268pt.
- [7
+(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+
+Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
+ [][][] 
+ []
+
+
+Overfull \vbox (11.39793pt too high) detected at line 79
+ []
+
+[7
 
 ]
 File: Screenshot_org.png Graphic file (type png)
 <use Screenshot_org.png>
 Package pdftex.def Info: Screenshot_org.png  used on input line 79.
-(pdftex.def)             Requested size: 139.44641pt x 78.45268pt.
+(pdftex.def)             Requested size: 159.14888pt x 89.53622pt.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 83.66866pt x 78.45268pt.
- [8
+(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+
+Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
+ [][][] 
+ []
+
+
+Overfull \vbox (11.39793pt too high) detected at line 79
+ []
+
+[8
 
 ]
 File: Screenshot_org.png Graphic file (type png)
 <use Screenshot_org.png>
 Package pdftex.def Info: Screenshot_org.png  used on input line 79.
-(pdftex.def)             Requested size: 139.44641pt x 78.45268pt.
+(pdftex.def)             Requested size: 159.14888pt x 89.53622pt.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 83.66866pt x 78.45268pt.
- [9
+(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+
+Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
+ [][][][] 
+ []
+
+
+Overfull \vbox (11.39793pt too high) detected at line 79
+ []
+
+[9
 
 ]
 File: Screenshot_org.png Graphic file (type png)
 <use Screenshot_org.png>
 Package pdftex.def Info: Screenshot_org.png  used on input line 79.
-(pdftex.def)             Requested size: 139.44641pt x 78.45268pt.
+(pdftex.def)             Requested size: 159.14888pt x 89.53622pt.
 File: xbee_packet.png Graphic file (type png)
 <use xbee_packet.png>
 Package pdftex.def Info: xbee_packet.png  used on input line 79.
-(pdftex.def)             Requested size: 83.66866pt x 78.45268pt.
- [10
+(pdftex.def)             Requested size: 95.48714pt x 89.53622pt.
+
+Overfull \hbox (5.50395pt too wide) in paragraph at lines 79--79
+ [][][][][] 
+ []
+
+
+Overfull \vbox (11.39793pt too high) detected at line 79
+ []
+
+[10
 
 ]<<VPlayer.swf>><<image.mp4>> [11
 
@@ -1390,7 +1445,8 @@ Package pdftex.def Info: xbee_packet.png  used on input line 79.
 
 ] [18
 
-] [19
+]
+[19
 
 ] [20
 
@@ -1420,13 +1476,13 @@ Package rerunfilecheck Info: File `Progress-Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: CE4619CB3AAAD8353595590AAF727FCD;347.
  ) 
 Here is how much of TeX's memory you used:
- 30366 strings out of 493305
- 611526 string characters out of 3129802
- 688964 words of memory out of 3000000
- 33377 multiletter control sequences out of 15000+200000
- 541237 words of font info for 56 fonts, out of 3000000 for 9000
+ 30374 strings out of 493305
+ 611346 string characters out of 3129802
+ 691910 words of memory out of 3000000
+ 33385 multiletter control sequences out of 15000+200000
+ 540937 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,70p,790b,922s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,20n,70p,790b,927s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmmi9.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmss10.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fo
@@ -1438,9 +1494,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Ashis
 m/cmssi8.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmssi9.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Progress-Presentation.pdf (20 pages, 19123876 bytes).
+Output written on Progress-Presentation.pdf (20 pages, 19154226 bytes).
 PDF statistics:
- 784 PDF objects out of 1000 (max. 8388607)
+ 942 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
