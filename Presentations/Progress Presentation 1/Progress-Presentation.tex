@@ -1,13 +1,17 @@
-\documentclass[10pt, a4paper]{beamer}
+\documentclass[10pt,a4paper]{beamer}
 
 \usetheme{Berkeley}
 \usecolortheme{sidebartab}
 
+\usepackage{graphicx}
+\usepackage{movie15,media9}
+
+
 \begin{document}
 	\setbeamertemplate{sidebar left}{}
 	\title{Progress Presentation-I}
-	\subtitle{e-Yantra Summer Internship-2018 \\ $ $A System for Solving Jigsaw Puzzle using Multiple Robots$ $}
-	\author{$ $Aniket Navlur$ $\\$ $Ashis kumar Maharana$ $\\$ $Kiran S Patil$ $\\ \vspace{1em}
+	\subtitle{e-Yantra Summer Internship-2018 \\ $ $\textbf{A System for Solving Jigsaw Puzzle using Multiple Robots}$ $}
+	\author{$ $Aniket Anantraj Navlur$ $\\$ $Ashis kumar Maharana$ $\\$ $Kiran S Patil$ $\\ \vspace{1em}
 	Mentors: \\$ $Abhinav Sarkar, Kalind Karia$ $}
 	\institute{IIT Bombay}
 	\date{\today}
@@ -17,14 +21,14 @@
 \setbeamertemplate{sidebar left}[sidebar theme]
 \section{Overview of Project}
 \begin{frame}{Overview of Project}
-	Give following details: \\
+	
 	\begin{itemize}
 		\item Project Name: A System for Solving Jigsaw Puzzle using Multiple Robots
-		\item Objective
+		\item Objective:
 		\begin{itemize}
 			\item To develop an autonomous system that can solve any Jigsaw Puzzle given its image using multiple robots. 
 		\end{itemize}
-		\item Deliverables
+		\item Deliverables:
 		\begin{enumerate}
 			\item Go-to-Goal controller for robot in a given frame
 			\item Autonomous solving of any Jigsaw Puzzle given just its image
@@ -35,7 +39,7 @@
 
 \section{Overview of Task}
 \begin{frame}{Overview of Task}
-	\begin{tabular}{| c | p{18 em} | c |}\hline
+	\begin{tabular}{| c | p{17.5 em} | c |}\hline
 		\textbf{Task No.} & \hspace{7em}\textbf{Task} & \textbf{Deadline} \\
 		& & (in Days)\\\hline
 		1 &\small{ Python, OpenCV, Firebird V Intro,\hspace{5 em}Xbee Communication} & 3 \\\hline
@@ -51,27 +55,79 @@
 
 \section{Task Accomplished}
 \begin{frame}{Task Accomplished}
+\begin{columns}
+\column{0.5\textwidth}
 	\begin{itemize}
-		\item Established communication between the laptop and the robot using XBee.
-		\item Found the pose and orientation of the robot using ArUco markers.
-		\item Tuned the PID values to perfection.
-		\item Developed a Go-To-Goal controller for multiple robots.
+		\item Established communication with the robot using XBee.\pause
+		\item Found the pose and orientation of the robot using ArUco markers.\pause
+		\item Created the data packets to be sent, received and parsed correctly\pause
+		\item Tuned the PID values to perfection.\pause
+		\item Developed a Go-To-Goal controller for multiple robots.\pause
+		
 	\end{itemize}
+	
+\column{0.5\textwidth}
+\begin{figure}
+\includegraphics[height=0.35\textheight]{Screenshot_org.png}\pause\vspace{1 em}
+\includegraphics[height=0.35\textheight]{xbee_packet.png}
+
+\end{figure}	
+\end{columns}
+\vspace{0.7 em}
+The data packet is formed by the following values
+\small{$<T\hspace{0.25 em}tar_x|tar_y|P\hspace{0.25 em}kp|ki|kd|R\hspace{0.25 em}head_x|head_y|tail_x|tail_y|A\hspace{0.25 em}deg|>$}
+\end{frame}
+
+\section{Videos}
+\begin{frame}{Demo}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+
+\includemedia[
+     width=5cm,height=5cm,
+     activate=pageopen,
+     addresource=image.mp4,
+     flashvars={
+         source=image.mp4
+        &autoPlay=true
+     }
+]{}{VPlayer.swf}
+\end{figure}
+\column{0.5\textwidth}
+\begin{figure}
+
+\includemedia[
+     width=5cm,height=5cm,
+     activate=pageopen,
+     addresource=image.mp4,
+     flashvars={
+         source=image.mp4
+        &autoPlay=true
+     }
+]{}{VPlayer.swf}
+\end{figure}
+
+\end{columns}
+
 \end{frame}
 
 \section{Challenges Faced}
 \begin{frame}{Challenges Faced}
 	\begin{itemize}
-		\item Determining the angle of ArUco Marker in the frame with proper resolution.
-		\item Creating data packets to hold the information about robot(its orientation, position, etc...) and parsing it once recieved by the robot.
+		\item Determining the angle of ArUco Marker in the frame with proper resolution.\pause
+		\item Finding the right library for serial communication\pause
+		\item Understanding the parameters of Xbee('MY')\pause
+		\item Displaying the received data on LCD of firebird\pause
+		\item Creating data packets to hold the information about robot(its orientation, position, etc...) and parsing it once received by the robot.
 	\end{itemize}
 \end{frame}
 
 \section{Future Plans}
 \begin{frame}{Future Plans}
 	\begin{itemize}
-		\item Path Planning of Robot.
-		\item Designing and building Gripper Mechanism to pick and place Jigsaw blocks and implement the entire solution.
+		\item Path Planning of Robot.\pause
+		\item Designing and building Gripper Mechanism to pick and place puzzle pieces and implementing the entire solution.\pause
 		\item Solve a Multi-Robot Cooperative Box-pushing problem.
 	\end{itemize}
 \end{frame}
