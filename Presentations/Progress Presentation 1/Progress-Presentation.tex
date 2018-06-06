@@ -54,20 +54,24 @@
 \end{frame}
 
 \section{Task Accomplished}
-\begin{frame}[allowframebreaks]{Task Accomplished}
+\begin{frame}{Task Accomplished}
 \begin{itemize}
-\item Established communication with the robot using XBee
+\item Established communication with the robot using XBee\pause
 \item Found the pose and orientation of the robot using ArUco markers
 \begin{figure}
 \includegraphics[height=0.6\textheight, width=0.7\textwidth]{image_screenshot2.png}\caption{ArUco id, center position, orientation}
 \end{figure}
-\item Formed the data packets to be sent, received and parsed correctly
+\end{itemize}
+\end{frame}
+\begin{frame}{Task Accomplished}
+\begin{itemize}
+\item Formed the data packets to be sent, received and parsed correctly\pause
 \begin{figure}
 \includegraphics[height=0.45\textheight, width=0.65\textwidth]{capture.png}\caption{Data Packets}
 \end{figure}
 \small{The data packet is formed by the following values}
-\small{$<T|tar_x|tar_y|P|kp|ki|kd|R|head_x|head_y|tail_x|tail_y|A|deg|>$}
-\item Tuned the PID values to perfection
+\small{$<T|tar_x|tar_y|P|kp|ki|kd|R|head_x|head_y|tail_x|tail_y|A|deg|>$}\pause
+\item Tuned the PID values to perfection\pause
 \item Developed a Go-To-Goal controller for multiple robots
 \end{itemize}
 \end{frame}

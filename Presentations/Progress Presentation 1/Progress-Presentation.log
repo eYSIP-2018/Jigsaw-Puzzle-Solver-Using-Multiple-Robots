@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.14)  6 JUN 2018 23:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.14)  7 JUN 2018 00:03
 entering extended mode
 **./Progress-Presentation.tex
 (Progress-Presentation.tex
@@ -1299,31 +1299,51 @@ Overfull \hbox (1.36356pt too wide) in paragraph at lines 54--54
 <image_screenshot2.png, id=142, 481.8pt x 361.35pt>
 File: image_screenshot2.png Graphic file (type png)
 <use image_screenshot2.png>
-Package pdftex.def Info: image_screenshot2.png  used on input line 73.
+Package pdftex.def Info: image_screenshot2.png  used on input line 65.
 (pdftex.def)             Requested size: 203.51617pt x 134.48587pt.
-<capture.png, id=143, 282.30469pt x 292.09125pt>
-File: capture.png Graphic file (type png)
-<use capture.png>
-Package pdftex.def Info: capture.png  used on input line 73.
-(pdftex.def)             Requested size: 188.98376pt x 100.86517pt.
  [4
 
- <./image_screenshot2.png>] [5
+ <./image_screenshot2.png>]
+File: image_screenshot2.png Graphic file (type png)
+<use image_screenshot2.png>
+Package pdftex.def Info: image_screenshot2.png  used on input line 65.
+(pdftex.def)             Requested size: 203.51617pt x 134.48587pt.
+ [5
 
+]
+<capture.png, id=209, 282.30469pt x 292.09125pt>
+File: capture.png Graphic file (type png)
+<use capture.png>
+Package pdftex.def Info: capture.png  used on input line 77.
+(pdftex.def)             Requested size: 188.98376pt x 100.86517pt.
+ [6
 
- <./capture.png>]<<VPlayer.swf>><<image.mp4>><<imgi.mp4>><<img.mp4>>
-Overfull \vbox (5.81984pt too high) detected at line 118
+ <./capture.png>]
+File: capture.png Graphic file (type png)
+<use capture.png>
+Package pdftex.def Info: capture.png  used on input line 77.
+(pdftex.def)             Requested size: 188.98376pt x 100.86517pt.
+ [7
+
+]
+File: capture.png Graphic file (type png)
+<use capture.png>
+Package pdftex.def Info: capture.png  used on input line 77.
+(pdftex.def)             Requested size: 188.98376pt x 100.86517pt.
+ [8
+
+]
+File: capture.png Graphic file (type png)
+<use capture.png>
+Package pdftex.def Info: capture.png  used on input line 77.
+(pdftex.def)             Requested size: 188.98376pt x 100.86517pt.
+ [9
+
+]<<VPlayer.swf>><<image.mp4>><<imgi.mp4>><<img.mp4>>
+Overfull \vbox (5.81984pt too high) detected at line 122
  []
 
-[6
-
-] [7
-
-] [8
-
-] [9
-
-] [10
+[10
 
 ] [11
 
@@ -1332,6 +1352,14 @@ Overfull \vbox (5.81984pt too high) detected at line 118
 ] [13
 
 ] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
 
 ]
 \tf@nav=\write6
@@ -1350,19 +1378,25 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
-(Progress-Presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
+(Progress-Presentation.aux
+*************************************************
+* pdfbase warning: "rerun"
+* 
+* Rerun to get internal references right!
+*************************************************
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
 Package rerunfilecheck Info: File `Progress-Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: CE4619CB3AAAD8353595590AAF727FCD;347.
  ) 
 Here is how much of TeX's memory you used:
- 30396 strings out of 493305
- 612494 string characters out of 3129802
- 689827 words of memory out of 3000000
- 33417 multiletter control sequences out of 15000+200000
+ 30394 strings out of 493305
+ 612161 string characters out of 3129802
+ 690623 words of memory out of 3000000
+ 33407 multiletter control sequences out of 15000+200000
  541237 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,70p,790b,922s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1377,9 +1411,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Ashis
 m/cmssi8.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmssi9.pfb><C:/Users/Ashis/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on Progress-Presentation.pdf (14 pages, 34076100 bytes).
+Output written on Progress-Presentation.pdf (18 pages, 34107025 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
  267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
