@@ -6,9 +6,9 @@
 \begin{document}
 	\setbeamertemplate{sidebar left}{}
 	\title{Progress Presentation-I}
-	\subtitle{e-Yantra Summer Internship-2018 \\ $ $\textbf{ A System for Solving Jigsaw Puzzle using Multiple Robots}$ $}
-	\author{$ $Aniket Anantraj Navlur$ $\\$ $Ashis kumar Maharana$ $\\$ $Kiran S Patil$ $\\
-	Mentor: $ $Abhinav Sarkar , Kalind Karia$ $}
+	\subtitle{e-Yantra Summer Internship-2018 \\ $ $A System for Solving Jigsaw Puzzle using Multiple Robots$ $}
+	\author{$ $Aniket Navlur$ $\\$ $Ashis kumar Maharana$ $\\$ $Kiran S Patil$ $\\ \vspace{1em}
+	Mentors: \\$ $Abhinav Sarkar, Kalind Karia$ $}
 	\institute{IIT Bombay}
 	\date{\today}
 	%\addtobeamertemplate{sidebar left}{}{\includegraphics[scale = 0.3]{logowithtext.png}}
@@ -17,14 +17,18 @@
 \setbeamertemplate{sidebar left}[sidebar theme]
 \section{Overview of Project}
 \begin{frame}{Overview of Project}
-	
+	Give following details: \\
 	\begin{itemize}
-		\item A System for Solving Jigsaw Puzzle using Multiple Robots\pause
-		\item Objective: The prime motive of this project is to develop a multi Robot based Puzzle Solver system that can solve a Jigsaw puzzle.\pause
-		\item Deliverables : \begin{enumerate}
-		\item  Solving any Jigsaw puzzle (building a complete solution)\pause
-		\item 	Maintaining Wiki on GitHub for each day progress\pause
-		\item 	Documentation (Software/Hardware) 
+		\item Project Name: A System for Solving Jigsaw Puzzle using Multiple Robots
+		\item Objective
+		\begin{itemize}
+			\item To develop an autonomous system that can solve any Jigsaw Puzzle given its image using multiple robots. 
+		\end{itemize}
+		\item Deliverables
+		\begin{enumerate}
+			\item Go-to-Goal controller for robot in a given frame
+			\item Autonomous solving of any Jigsaw Puzzle given just its image
+			\item Proper documentation and report on the system.
 		\end{enumerate}
 	\end{itemize}
 \end{frame}
@@ -32,55 +36,43 @@
 \section{Overview of Task}
 \begin{frame}{Overview of Task}
 	\begin{tabular}{| c | p{18 em} | c |}\hline
-	\textbf{Task No.} & \hspace{7em}\textbf{Task} & \textbf{Deadline} \\
-	& & (in Days)\\\hline
-	1 &\small{ Python, OpenCV, Firebird V Intro,\hspace{5 em}Xbee Communication} & 3 \\\hline
-	2 &\small{ Pose and orientation calculation of 2 Firebird robots using color/Aruco markers }& 4\\\hline
-	3 &\small{ Programming the Go-To-Goal Controller for single Firebird V robot. Tuning the PID\hspace{3 em} values to perfection }& 4\\\hline
-	4 &\small{ Implementing path planning with Firebird V where obstacles have been placed in arena }& 3\\\hline
-	5 &\small{ Detection of jigsaw puzzle blocks using\hspace{3 em}Template Matching} & 2\\\hline
-	6 &\small{ Pick and place of blocks - gripper mechanism building }& 4\\\hline
-	7 &\small{ Implementing the entire solution for a given\hspace{3 em}jigsaw puzzle }& 5\\\hline
-	8 &\small{ Documentation and reporting results }& 4\\\hline
+		\textbf{Task No.} & \hspace{7em}\textbf{Task} & \textbf{Deadline} \\
+		& & (in Days)\\\hline
+		1 &\small{ Python, OpenCV, Firebird V Intro,\hspace{5 em}Xbee Communication} & 3 \\\hline
+		2 &\small{ Pose and orientation calculation of 2 Firebird robots using color/Aruco markers }& 4\\\hline
+		3 &\small{ Programming the Go-To-Goal Controller for single Firebird V robot. Tuning the PID\hspace{3 em} values to perfection }& 4\\\hline
+		4 &\small{ Implementing path planning with Firebird V where obstacles have been placed in arena }& 3\\\hline
+		5 &\small{ Detection of jigsaw puzzle blocks using\hspace{3 em}Template Matching} & 2\\\hline
+		6 &\small{ Pick and place of blocks - gripper mechanism building }& 4\\\hline
+		7 &\small{ Implementing the entire solution for a given\hspace{3 em}jigsaw puzzle }& 5\\\hline
+		8 &\small{ Documentation and reporting results }& 4\\\hline
 	\end{tabular}
-	
 \end{frame}
 
 \section{Task Accomplished}
 \begin{frame}{Task Accomplished}
 	\begin{itemize}
-		\item Task no.1(Python, OpenCV, Firebird V, Xbee Communication)
-		\begin{itemize}
-		\item Python and Python libraries ( pyserial, xbee )
-		\item Xbee configuration and communication in XCTU
-		\end{itemize}
-		\item Task no.2  Robot pose and orientation using Aruco marker
-		\item Cropping the arena of interest(using Aruco markers)
-		\item Sending data packets to firebird robots and parsing the different values from that
-		\begin{itemize}
-		\item The data packet is formed by the following values...
-		$<T|tar_x|tar_y|P|kp|ki|kd|R|head_x|head_y|tail_x|tail_y|A|deg>$ 
-		\end{itemize} 
-		\item Task no.3 Go-To-Goal Controller and PID tuning
-		\item Task no.5 template matching
-		
+		\item Established communication between the laptop and the robot using XBee.
+		\item Found the pose and orientation of the robot using ArUco markers.
+		\item Tuned the PID values to perfection.
+		\item Developed a Go-To-Goal controller for multiple robots.
 	\end{itemize}
 \end{frame}
 
 \section{Challenges Faced}
 \begin{frame}{Challenges Faced}
 	\begin{itemize}
-	    \item finding the right angle(slope) with math library(python,c)
-		\item finding the right library for serial communication(serial,pyserial,xbee,digi-xbee)
-		\item understanding parameters of Xbee ('MY')
-		\item LCD printing the data received on FireBird V 
+		\item Determining the angle of ArUco Marker in the frame with proper resolution.
+		\item Creating data packets to hold the information about robot(its orientation, position, etc...) and parsing it once recieved by the robot.
 	\end{itemize}
 \end{frame}
 
 \section{Future Plans}
 \begin{frame}{Future Plans}
 	\begin{itemize}
-		\item Two robots push a single box to take it to its destination
+		\item Path Planning of Robot.
+		\item Designing and building Gripper Mechanism to pick and place Jigsaw blocks and implement the entire solution.
+		\item Solve a Multi-Robot Cooperative Box-pushing problem.
 	\end{itemize}
 \end{frame}
 
