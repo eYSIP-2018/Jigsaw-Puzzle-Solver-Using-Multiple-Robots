@@ -23,16 +23,16 @@
 \begin{frame}{Overview of Project}
 	
 	\begin{itemize}
-		\item Project Name: A System for Solving Jigsaw Puzzle using Multiple Robots
-		\item Objective:
+		\item \textcolor{blue}{Project Name:} A System for Solving Jigsaw Puzzle using Multiple Robots
+		\item \textcolor{blue}{Objective:}
 		\begin{itemize}
 			\item To develop an autonomous system that can solve any Jigsaw Puzzle given its image using multiple robots 
 		\end{itemize}
-		\item Deliverables:
+		\item \textcolor{blue}{Deliverables:}
 		\begin{enumerate}
 			\item Go-to-Goal controller for robot in a given frame
 			\item Autonomous solving of any Jigsaw Puzzle given just its image
-			\item Proper documentation and report on the system
+			\item Proper documentation and report on solution of the system
 		\end{enumerate}
 	\end{itemize}
 \end{frame}
@@ -42,7 +42,7 @@
 	\begin{tabular}{| c | p{17.5 em} | c |}\hline
 		\textbf{Task No.} & \hspace{7em}\textbf{Task} & \textbf{Deadline} \\
 		& & (in Days)\\\hline
-		1 &\small{ Python, OpenCV, Firebird V Intro,\hspace{5 em}Xbee Communication} & 3 \\\hline
+		1 &\small{ Python, OpenCV, Firebird V Intro,\hspace{5 em}XBee Communication} & 3 \\\hline
 		2 &\small{ Pose and orientation calculation of 2 Firebird robots using color/Aruco markers }& 4\\\hline
 		3 &\small{ Programming the Go-To-Goal Controller for single Firebird V robot. Tuning the PID\hspace{3 em} values to perfection }& 4\\\hline
 		4 &\small{ Implementing path planning with Firebird V where obstacles have been placed in arena }& 3\\\hline
@@ -57,27 +57,28 @@
 \begin{frame}{Task Accomplished}
 \begin{itemize}
 \item Established communication with the robot using XBee\pause
-\item Found the pose and orientation of the robot using ArUco markers
+\item Found the pose and orientation of the robot using ArUco markers\pause
 \begin{figure}
 \includegraphics[height=0.6\textheight, width=0.7\textwidth]{image_screenshot2.png}\caption{ArUco id, center position, orientation}
 \end{figure}
 \end{itemize}
 \end{frame}
+
 \begin{frame}{Task Accomplished}
 \begin{itemize}
 \item Formed the data packets to be sent, received and parsed correctly\pause
 \begin{figure}
-\includegraphics[height=0.45\textheight, width=0.65\textwidth]{capture.png}\caption{Data Packets}
+\includegraphics[height=0.45\textheight, width=0.55\textwidth]{capture.png}\caption{Data Packets}
 \end{figure}
-\small{The data packet is formed by the following values}
-\small{$<T|tar_x|tar_y|P|kp|ki|kd|R|head_x|head_y|tail_x|tail_y|A|deg|>$}\pause
+The format of data packets is:
+\small{\boldmath{$<T|tar_x|tar_y|P|kp|ki|kd|R|head_x|head_y|tail_x|tail_y|A|deg|>$}}\pause
 \item Tuned the PID values to perfection\pause
 \item Developed a Go-To-Goal controller for multiple robots
 \end{itemize}
 \end{frame}
 
-\section{Videos}
-\begin{frame}{Videos}
+\section{Demo}
+\begin{frame}{Demo}
 \begin{columns}
 \column{0.5\textwidth}
 \begin{figure}
@@ -121,13 +122,14 @@
 
 \end{frame}
 
+
 \section{Challenges Faced}
 \begin{frame}{Challenges Faced}
 	\begin{itemize}
 		\item Determining the angle of ArUco Marker in the frame with proper resolution\pause
 		\item Finding the right library for serial communication\pause
-		\item Understanding the parameters of Xbee('DH','DL','MY',channel$=$'C', API, AT, etc...)\pause
-		\item Creating data packets to hold the information about robot (its orientation, position, etc...) and parsing it once received by the robot.
+		\item Understanding the parameters of Xbee ('DH', 'DL', 'MY', channel$=$'C', API, AT, etc...)\pause
+		\item Creating data packets to hold the information about robot (its orientation, position, etc...) and parsing it once received by the robot
 	\end{itemize}
 \end{frame}
 
