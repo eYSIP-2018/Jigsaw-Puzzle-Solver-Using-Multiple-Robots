@@ -32,8 +32,8 @@ def template_matching(image, template):
     return thresh, b
 
 ini_time = time.time()
-image = cv2.imread('sample_arena.jpg')
-#image = cv2.resize(image, (640, 480), interpolation = cv2.INTER_CUBIC)
+image = cv2.imread('arena1.png')
+image = cv2.resize(image, (640, 480), interpolation = cv2.INTER_CUBIC)
 final_image = cv2.imread('jigsaw_3.jpg')
 
 h , w , c = final_image.shape
@@ -41,7 +41,7 @@ n=1
 for i in range(3):
     for j in range(3):
         temp = final_image[int(i*h/3):int((i+1)*h/3) , int(j*w/3):int((j+1)*w/3)]
-        temp = cv2.resize(temp, (30, 30), interpolation = cv2.INTER_CUBIC)
+        temp = cv2.resize(temp, (45, 45), interpolation = cv2.INTER_CUBIC)
         cv2.imwrite('template'+ str(n) + '.jpg', temp)
         n += 1
 
@@ -49,8 +49,8 @@ for i in range(3):
 # final_image = cv2.resize(final_image, (90, 90), interpolation = cv2.INTER_CUBIC)
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-ret, thresh = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY_INV)
-
+ret, thresh = cv2.threshold(gray, 20, 255, cv2.THRESH_BINARY)
+# cv2.imwrite('threshed.jpg', thresh)
 img , contours , hier = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 cv2.imshow('thresh', thresh)
 blocks = []
@@ -88,7 +88,3 @@ fin_time = time.time()
 print(blocks)
 print("time required = %d" % (fin_time-ini_time))
 cv2.destroyAllWindows()
-
-"""
-
-"""
