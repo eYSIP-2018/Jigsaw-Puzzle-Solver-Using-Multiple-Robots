@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.20)  21 JUN 2018 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.20)  22 JUN 2018 00:06
 entering extended mode
 **./presentation2.tex
 (presentation2.tex
@@ -1149,12 +1149,12 @@ Underfull \hbox (badness 4084) in paragraph at lines 53--53
 <template.jpg, id=135, 487.22025pt x 389.0535pt>
 File: template.jpg Graphic file (type jpg)
 <use template.jpg>
-Package pdftex.def Info: template.jpg  used on input line 80.
+Package pdftex.def Info: template.jpg  used on input line 84.
 (pdftex.def)             Requested size: 98.24522pt x 78.45268pt.
 <templatem.jpg, id=136, 748.59676pt x 233.07076pt>
 File: templatem.jpg Graphic file (type jpg)
 <use templatem.jpg>
-Package pdftex.def Info: templatem.jpg  used on input line 80.
+Package pdftex.def Info: templatem.jpg  used on input line 84.
 (pdftex.def)             Requested size: 145.36467pt x 67.2438pt.
  [4
 
@@ -1162,30 +1162,30 @@ Package pdftex.def Info: templatem.jpg  used on input line 80.
 <Base.png, id=170, 853.9905pt x 555.2745pt>
 File: Base.png Graphic file (type png)
 <use Base.png>
-Package pdftex.def Info: Base.png  used on input line 96.
+Package pdftex.def Info: Base.png  used on input line 100.
 (pdftex.def)             Requested size: 101.75774pt x 44.82108pt.
 <Chamber.png, id=172, 855.195pt x 575.751pt>
 File: Chamber.png Graphic file (type png)
 <use Chamber.png>
-Package pdftex.def Info: Chamber.png  used on input line 96.
+Package pdftex.def Info: Chamber.png  used on input line 100.
 (pdftex.def)             Requested size: 101.75772pt x 44.8223pt.
 <Column.png, id=173, 855.195pt x 555.2745pt>
 File: Column.png Graphic file (type png)
 <use Column.png>
-Package pdftex.def Info: Column.png  used on input line 96.
+Package pdftex.def Info: Column.png  used on input line 100.
 (pdftex.def)             Requested size: 101.75772pt x 44.82108pt.
 <Gear.png, id=174, 854.59274pt x 575.14874pt>
 File: Gear.png Graphic file (type png)
 <use Gear.png>
-Package pdftex.def Info: Gear.png  used on input line 96.
+Package pdftex.def Info: Gear.png  used on input line 100.
 (pdftex.def)             Requested size: 116.29088pt x 67.2421pt.
 <Rack_with_Servo_slot.png, id=175, 853.9905pt x 575.14874pt>
 File: Rack_with_Servo_slot.png Graphic file (type png)
 <use Rack_with_Servo_slot.png>
-Package pdftex.def Info: Rack_with_Servo_slot.png  used on input line 96.
+Package pdftex.def Info: Rack_with_Servo_slot.png  used on input line 100.
 (pdftex.def)             Requested size: 116.28711pt x 67.2421pt.
 
-Overfull \vbox (10.06783pt too high) detected at line 96
+Overfull \vbox (10.06783pt too high) detected at line 100
  []
 
 [5
@@ -1195,37 +1195,37 @@ ot.png>]
 <Arms.png, id=213, 781.11826pt x 389.65575pt>
 File: Arms.png Graphic file (type png)
 <use Arms.png>
-Package pdftex.def Info: Arms.png  used on input line 117.
+Package pdftex.def Info: Arms.png  used on input line 121.
 (pdftex.def)             Requested size: 78.1164pt x 38.96785pt.
 <BottomPlate.png, id=214, 781.11826pt x 369.7815pt>
 File: BottomPlate.png Graphic file (type png)
 <use BottomPlate.png>
-Package pdftex.def Info: BottomPlate.png  used on input line 117.
+Package pdftex.def Info: BottomPlate.png  used on input line 121.
 (pdftex.def)             Requested size: 78.1164pt x 36.9803pt.
 <Claw.png, id=215, 781.11826pt x 369.7815pt>
 File: Claw.png Graphic file (type png)
 <use Claw.png>
-Package pdftex.def Info: Claw.png  used on input line 117.
+Package pdftex.def Info: Claw.png  used on input line 121.
 (pdftex.def)             Requested size: 78.1164pt x 36.9803pt.
 <Gears.png, id=216, 781.11826pt x 369.7815pt>
 File: Gears.png Graphic file (type png)
 <use Gears.png>
-Package pdftex.def Info: Gears.png  used on input line 117.
+Package pdftex.def Info: Gears.png  used on input line 121.
 (pdftex.def)             Requested size: 78.1164pt x 36.9803pt.
 <ServoMount.png, id=217, 781.11826pt x 389.65575pt>
 File: ServoMount.png Graphic file (type png)
 <use ServoMount.png>
-Package pdftex.def Info: ServoMount.png  used on input line 117.
+Package pdftex.def Info: ServoMount.png  used on input line 121.
 (pdftex.def)             Requested size: 78.1164pt x 38.96785pt.
 <TopPlate.png, id=218, 781.11826pt x 369.7815pt>
 File: TopPlate.png Graphic file (type png)
 <use TopPlate.png>
-Package pdftex.def Info: TopPlate.png  used on input line 117.
+Package pdftex.def Info: TopPlate.png  used on input line 121.
 (pdftex.def)             Requested size: 78.1164pt x 36.9803pt.
 <GripperPlate.png, id=219, 781.11826pt x 389.65575pt>
 File: GripperPlate.png Graphic file (type png)
 <use GripperPlate.png>
-Package pdftex.def Info: GripperPlate.png  used on input line 117.
+Package pdftex.def Info: GripperPlate.png  used on input line 121.
 (pdftex.def)             Requested size: 78.1164pt x 38.96785pt.
  [6
 
@@ -1235,20 +1235,20 @@ py)> <./GripperPlate.png (PNG copy)>]
 <gear1.png, id=251, 854.59274pt x 574.5465pt>
 File: gear1.png Graphic file (type png)
 <use gear1.png>
-Package pdftex.def Info: gear1.png  used on input line 124.
+Package pdftex.def Info: gear1.png  used on input line 128.
 (pdftex.def)             Requested size: 87.21164pt x 44.82497pt.
 <gear2.png, id=252, 854.59274pt x 575.14874pt>
 File: gear2.png Graphic file (type png)
 <use gear2.png>
-Package pdftex.def Info: gear2.png  used on input line 124.
+Package pdftex.def Info: gear2.png  used on input line 128.
 (pdftex.def)             Requested size: 87.21164pt x 44.82806pt.
 <plate.png, id=253, 854.59274pt x 575.14874pt>
 File: plate.png Graphic file (type png)
 <use plate.png>
-Package pdftex.def Info: plate.png  used on input line 124.
+Package pdftex.def Info: plate.png  used on input line 128.
 (pdftex.def)             Requested size: 87.21164pt x 44.82806pt.
 
-Overfull \vbox (9.08447pt too high) detected at line 124
+Overfull \vbox (9.08447pt too high) detected at line 128
  []
 
 [7
@@ -1276,28 +1276,28 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
 (presentation2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `presentation2.out' has not changed.
 (rerunfilecheck)             Checksum: 2C0F1EF650D4E0CB21DC1E04020F68A6;305.
  ) 
 Here is how much of TeX's memory you used:
- 27569 strings out of 493305
- 539908 string characters out of 3141062
- 622158 words of memory out of 3000000
- 30641 multiletter control sequences out of 15000+200000
+ 27571 strings out of 493305
+ 539935 string characters out of 3141062
+ 622156 words of memory out of 3000000
+ 30643 multiletter control sequences out of 15000+200000
  541237 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,70p,782b,817s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,16n,70p,813b,837s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmss10.pfb><E:/applica
 tions/miktex/fonts/type1/public/amsfonts/cm/cmss12.pfb><E:/applications/miktex/
 fonts/type1/public/amsfonts/cm/cmss8.pfb><E:/applications/miktex/fonts/type1/pu
 blic/amsfonts/cm/cmss9.pfb><E:/applications/miktex/fonts/type1/public/amsfonts/
 cm/cmssbx10.pfb>
-Output written on presentation2.pdf (10 pages, 2023304 bytes).
+Output written on presentation2.pdf (10 pages, 2023512 bytes).
 PDF statistics:
  407 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
