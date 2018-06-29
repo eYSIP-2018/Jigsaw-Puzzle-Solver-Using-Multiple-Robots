@@ -4,7 +4,7 @@ import cv2.aruco as aruco
 import math
 
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 
 

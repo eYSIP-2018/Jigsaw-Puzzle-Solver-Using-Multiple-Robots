@@ -1,0 +1,160 @@
+\documentclass[a4paper,12pt,oneside]{book}
+
+%-------------------------------Start of the Preable------------------------------------------------
+\usepackage[english]{babel}
+\usepackage{blindtext}
+%packagr for hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\urlstyle{same}
+%use of package fancy header
+\usepackage{fancyhdr}
+\setlength\headheight{26pt}
+\fancyhf{}
+%\rhead{\includegraphics[width=1cm]{logo}}
+\lhead{\rightmark}
+\rhead{\includegraphics[width=1cm]{logo}}
+\fancyfoot[RE, RO]{\thepage}
+\fancyfoot[CE, CO]{\href{http://www.e-yantra.org}{www.e-yantra.org}}
+
+\pagestyle{fancy}
+
+%use of package for section title formatting
+\usepackage{titlesec}
+\titleformat{\chapter}
+  {\Large\bfseries} % format
+  {}                % label
+  {0pt}             % sep
+  {\huge}           % before-code
+ 
+%use of package tcolorbox for colorful textbox
+\usepackage[most]{tcolorbox}
+\tcbset{colback=cyan!5!white,colframe=cyan!75!black,halign title = flush center}
+
+\newtcolorbox{mybox}[1]{colback=cyan!5!white,
+colframe=cyan!75!black,fonttitle=\bfseries,
+title=\textbf{\Large{#1}}}
+
+%use of package marginnote for notes in margin
+\usepackage{marginnote}
+
+%use of packgage watermark for pages
+%\usepackage{draftwatermark}
+%\SetWatermarkText{\includegraphics{logo}}
+\usepackage[scale=2,opacity=0.1,angle=0]{background}
+\backgroundsetup{
+contents={\includegraphics{logo}}
+}
+
+%use of newcommand for keywords color
+\usepackage{xcolor}
+\newcommand{\keyword}[1]{\textcolor{red}{\textbf{#1}}}
+
+%package for inserting pictures
+\usepackage{graphicx}
+
+%package for highlighting
+\usepackage{color,soul}
+
+%new command for table
+\newcommand{\head}[1]{\textnormal{\textbf{#1}}}
+
+
+%----------------------End of the Preamble---------------------------------------
+
+
+\begin{document}
+
+%---------------------Title Page------------------------------------------------
+\begin{titlepage}
+\raggedright
+{\Large eYSIP$-$2018\\[1 cm]}
+{\Huge\scshape a system for solving jigsaw puzzle using multiple robots\\[.1 in]}
+\vfill
+\begin{flushright}
+{\large Aniket Anantraj Navlur \\}
+{\large Kiran Suvas Patil\\}
+{\large Ashis Kumar Maharana\\}
+{\large Abinav Sarkar\\}
+{\large Kalind Karia\\}
+{\large Duration of Internship: $ 21/05/2018-06/07/2018 $ \\}
+\end{flushright}
+
+{\itshape 2018, e-Yantra Publication}
+\end{titlepage}
+%-------------------------------------------------------------------------------
+
+\chapter[Project Tag]{A System for Solving Jigsaw Puzzle using Multiple Robots}
+\section*{Abstract}
+
+The prime motive of this project is to develop a multi Robot based Puzzle Solver system that can solve a Jigsaw puzzle.
+
+
+\subsection*{Completion status}
+Give details for work/project completed successfully. If work is not
+complete, mention the details till which task is done.
+
+\section{Hardware parts}
+\begin{itemize}
+  \item List of hardware 
+  \item Detail of each hardware: \href[page=5]{./datasheet/MPU-9150.pdf}{Datasheet, page 5}, \href{http://www.amazon.in}{Vendor link}, 
+  \item Connection diagram
+\end{itemize}
+
+\section{Software used}
+\begin{itemize}
+  \item List of software used 
+  \item Detail of software: version, \href{http://www.amazon.com}{download link}, 
+  \item Installation steps
+\end{itemize}
+
+\section{Assembly of hardware}
+Circuit diagram and Steps of assembly of hardware with pictures for each step
+\subsection*{Circuit Diagram}
+Circuit schematic, simplified circuit diagram , block diagram of system
+\subsection*{Step 1}
+Steps for assembling part 1
+\subsection*{Step 2}
+Steps for assembling part 2
+\subsection*{Step 3}
+Steps for assembling part 3
+
+
+
+\section{Software and Code}
+\href{http://www.github.com}{Github link} for the repository of code
+
+Brief explanation of various parts of code 
+
+\section{Use and Demo}
+Final Setup Image
+
+User Instruction for demonstration
+
+\href{http://www.youtube.com}{Youtube Link} of demonstration video 
+
+\section{Future Work}
+What can be done to take this work ahead in future as projects.
+
+\section{Bug report and Challenges}
+Any issues in code and hardware.
+
+Any failure or challenges faced during project
+
+\begin{thebibliography}{li}
+\bibitem{wavelan97}
+Ad Kamerman and Leo Monteban,
+{\em WaveLAN-II: A High-Performance Wireless LAN for the Unlicensed band},
+1997.
+
+\end{thebibliography}
+
+
+\end{document}
+
