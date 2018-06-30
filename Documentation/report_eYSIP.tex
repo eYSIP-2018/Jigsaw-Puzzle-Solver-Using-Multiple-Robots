@@ -1,6 +1,7 @@
 \documentclass[a4paper,12pt,oneside]{book}
 
 %-------------------------------Start of the Preable------------------------------------------------
+\usepackage{mathtools}
 \usepackage[english]{babel}
 \usepackage{blindtext}
 %packagr for hyperlinks
@@ -122,6 +123,7 @@ The project is completed till task$.$6  i.e. building Gripper mechanism. Impleme
    \item ArUco markers
    \item Servo motors for gripper mechanism
    \item flex sheet for arena
+   \item puzzle pieces
 \end{itemize}
 
 \section{Software used}
@@ -166,11 +168,37 @@ For communicating to xbee module using python requires xbee and pyserial module.
 \end{center}
 \item optional \href{https://pypi.org/project/digi-xbee/}{digi-xbee}
 \begin{center}
-\framebox{\textcolor{gray}{ pip install digi-xbee }}
+\fbox{\textcolor{gray}{ pip install digi-xbee }}
 \end{center}
 \end{enumerate}\vspace{0 em}
-The xbee model provided(XBee S2C) cannot be read properly using the earlier versions of XCTU. So it is recommended to use the \href{https://www.digi.com/support/productdetail?pid=3352&type=utilities}{latest version}. Follow the previous Docs for configuration using XCTU.
-
+The xbee model provided(XBee S2C) cannot be read properly using the earlier versions of XCTU. So it is recommended to use the \href{https://www.digi.com/support/productdetail?pid=3352&type=utilities}{latest version}. Follow the previous Docs for configuration using XCTU. After configuration and testing over XCTU, communication is again tested using the python script. Once the communication is established it is time to connect the xbee modules on the Firebird V robots. How to guide can be found in the hardware manual of Firebird V.\\
+Then comes the localisation of robots. For that purpose we are using overhead camera and ArUco markers. The position and orientation of the ArUco marker is first calculated using python script and \href{https://docs.python.org/2/library/math.html}{math module} which is inbuilt in python. Angle is calculated such that it ranges from 0 to 360 degrees. The python script can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/Aruco_pose.py}{here}.\\
+For the Go$-$To$-$Goal Controller we first found the orientation and distance of the robot from its goal or destination. Then the error angle is calculated by subtracting angle with respect to frame from angle with respect to destination. The code can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/Aruco_pose_with_other_point.py}{here}. In another way the error angle can be found by\\
+\begin{equation}
+error angle = \arctan \left (\frac{m - n}{1 - m\times n}\right)
+\end{equation}
+\begin{center}
+m = orientation of robot with respect to frame\\
+\hspace{2.7 em}n = orientation of robot with respect to destination\end{center}
+This error angle is then passed to the PID controller which then adjusts the speed of motors to maintain a zero error. The python script sends data packets to the Firebird V robot via Xbee. These data packets are formed by the following values.
+\begin{equation}
+\left\langle T|d_x|d_y|P|K_p|K_i|K_d|R|r_x|r_y|A|angle |\right\rangle
+\end{equation}
+\begin{center}
+$<$ symbolizes beginning of data packet\\
+T symbolizes target\\
+d\textsubscript{x} $=$ destination x co-ordinate\\
+d\textsubscript{y} $=$ destination y co-ordinate\\
+P symbolizes PID gains\\
+K\textsubscript{p} $=$ proportional gain\\
+K\textsubscript{i} $=$ integral gain\\
+K\textsubscript{d} $=$ differential gain\\
+R symbolizes robot position\\
+r\textsubscript{x} $=$ robot x co-ordinate\\
+r\textsubscript{y} $=$ robot y co-ordinate\\
+A symbolizes error angle\\
+$>$ symbolizes end of packet\end{center}
+Once received the packet is successfully parsed by the robot in an ISR and the speeds are assigned to the motors as PWM duty-cycle.The \href{}{c code} and python \href{}{script} can be found here. 
 
 
 \href{http://www.github.com}{Github link} for the repository of code
