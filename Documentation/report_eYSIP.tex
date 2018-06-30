@@ -75,14 +75,14 @@ contents={\includegraphics{logo}}
 \begin{titlepage}
 \raggedright
 {\Large eYSIP$-$2018\\[1 cm]}
-{\Huge\scshape a system for solving jigsaw puzzle using multiple robots\\[.1 in]}
+{\Huge\scshape A system for solving jigsaw puzzle using multiple robots\\[.1 in]}
 \vfill
 \begin{flushright}
 {\large Aniket Anantraj Navlur \\}
 {\large Kiran Suvas Patil\\}
 {\large Ashis Kumar Maharana\\}
-{\large Abinav Sarkar\\}
-{\large Kalind Karia\\}
+{\large Mentor 1$:$ Abinav Sarkar\\}
+{\large Mentor 2$:$ Kalind Karia\\}
 {\large Duration of Internship: $ 21/05/2018-06/07/2018 $ \\}
 \end{flushright}
 
@@ -92,26 +92,46 @@ contents={\includegraphics{logo}}
 
 \chapter[Project Tag]{A System for Solving Jigsaw Puzzle using Multiple Robots}
 \section*{Abstract}
-
-The prime motive of this project is to develop a multi Robot based Puzzle Solver system that can solve a Jigsaw puzzle.
-
+The prime motive of this project is to develop a multi Robot based \hspace{0 em} Autonomous Puzzle Solver system that can solve a Jigsaw puzzle.
+\section*{Overview of Task}
+\begin{tabular}{| c | p{27 em} | }\hline
+		\textbf{Task No.} & \hspace{7em}\textbf{Task}\\\hline
+		1 &\small{ Python, OpenCV, Firebird V Intro,XBee Communication} \\\hline
+		2 &\small{ Pose and orientation calculation of 2 Firebird robots using\hspace{3 em} color/Aruco markers }\\\hline
+		3 &\small{ Programming the Go-To-Goal Controller for single Firebird V robot. Tuning the PID\hspace{0 em} values to perfection }\\\hline
+		4 &\small{ Implementing path planning with Firebird V where obstacles have been placed in arena }\\\hline
+		5 &\small{ Detection of jigsaw puzzle blocks using\hspace{0 em}Template Matching}\\\hline
+		6 &\small{ Pick and place of blocks - gripper mechanism building }\\\hline
+		7 &\small{ Implementing the entire solution for a given\hspace{0 em}jigsaw puzzle }\\\hline
+		8 &\small{ Documentation and reporting results }\\\hline
+	\end{tabular}
 
 \subsection*{Completion status}
-Give details for work/project completed successfully. If work is not
-complete, mention the details till which task is done.
+The project is completed till task$.$6  i.e. building Gripper mechanism. Implementation of the entire solution for a given puzzle is in progress.  
 
 \section{Hardware parts}
 \begin{itemize}
-  \item List of hardware 
-  \item Detail of each hardware: \href[page=5]{./datasheet/MPU-9150.pdf}{Datasheet, page 5}, \href{http://www.amazon.in}{Vendor link}, 
-  \item Connection diagram
+  \item FireBird Robots(2)
+  \item  XBee(3)
+  \begin{itemize}
+  \item Xbee module
+  \item xbee usb adapter board
+  \item usb type B to type A converter
+  \end{itemize}
+   \item overhead camera
+   \item ArUco markers
+   \item Servo motors for gripper mechanism
+   \item flex sheet for arena
 \end{itemize}
 
 \section{Software used}
 \begin{itemize}
-  \item List of software used 
-  \item Detail of software: version, \href{http://www.amazon.com}{download link}, 
-  \item Installation steps
+  \item python
+  \item openCV
+  \item AVR Studio 5.1
+  \item XCTU(latest version)
+  \item AVRDude
+  \item Fusion360
 \end{itemize}
 
 \section{Assembly of hardware}
@@ -128,6 +148,31 @@ Steps for assembling part 3
 
 
 \section{Software and Code}
+\subsection{Dependencies}
+Before configuring the XBee modules one should first understand the different parameters of it. This \href{https://learn.sparkfun.com/tutorials/exploring-xbees-and-xctu}{article} should help.  For configuring the xbee modules latest XCTU software is used. The channel is chosen so, such that no other device interfere the communication. \\
+Detection of ArUco markers using python requires integration of aruco library to the current python version installed. The aruco library can be found in opencv-contrib module. For installing opencv-contrib follow these \href{https://www.youtube.com/watch?v=jnpC_Ib_lbc}{steps}$($ installing modules using pip  $)$. 
+\begin{center} 
+\framebox{\textcolor{gray}{ pip install opencv-contrib-python }}
+\end{center}
+For communicating to xbee module using python requires xbee and pyserial module. There are many similar modules for serial communication and xbee, but we need these two modules. If you want to learn you can search and go through other modules also.
+\begin{enumerate}
+\item \href{https://pypi.org/project/pyserial/}{pyserial}
+\begin{center} 
+\framebox{\textcolor{gray}{ pip install pyserial }}
+\end{center}
+\item \href{https://pypi.org/project/XBee/}{xbee}
+\begin{center}
+\framebox{\textcolor{gray}{ pip install xbee }}
+\end{center}
+\item optional \href{https://pypi.org/project/digi-xbee/}{digi-xbee}
+\begin{center}
+\framebox{\textcolor{gray}{ pip install digi-xbee }}
+\end{center}
+\end{enumerate}\vspace{0 em}
+The xbee model provided(XBee S2C) cannot be read properly using the earlier versions of XCTU. So it is recommended to use the \href{https://www.digi.com/support/productdetail?pid=3352&type=utilities}{latest version}. Follow the previous Docs for configuration using XCTU.
+
+
+
 \href{http://www.github.com}{Github link} for the repository of code
 
 Brief explanation of various parts of code 
