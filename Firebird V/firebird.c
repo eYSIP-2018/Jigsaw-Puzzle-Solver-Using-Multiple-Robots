@@ -12,28 +12,31 @@ int error_angle=0;
 volatile char data;
 volatile int count = 0;
 volatile int flag=0;
-int number[4] = {0,0,0,0}; 
+int number[4] = {0,0,0,0};
 char str[200] ="AVR\0";
+// constructing pid structure with the gain values kp, ki, kd
 struct PID{
 	int kp;
 	int kd;
 	int ki;
 }pid;
-
+// constructing co-ordinate structure with x and y co-ordinates
 struct cords{
 	int x;
 	int y;
 }dest;
-
+// constructing a robot structure with head and tail structure
+// containing their co-ordinates respectively
 struct robot{
 	struct cords head;
 	struct cords tail;
 }firebird;
+// initializing the left and right motor speed
 volatile unsigned char LM = 124;
 volatile unsigned char RM = 124;
 
 //Function to configure ports to enable robot's motion
-void motion_pin_config (void) 
+void motion_pin_config (void)
 {
  DDRA = DDRA | 0x0F;
  PORTA = PORTA & 0xF0;
@@ -66,7 +69,7 @@ void timer5_init()
 	TCCR5A = 0xA9;	/*{COM5A1=1, COM5A0=0; COM5B1=1, COM5B0=0; COM5C1=1 COM5C0=0}
  					  For Overriding normal port functionality to OCRnA outputs.
 				  	  {WGM51=0, WGM50=1} Along With WGM52 in TCCR5B for Selecting FAST PWM 8-bit Mode*/
-	
+
 	TCCR5B = 0x0B;	//WGM12=1; CS12=0, CS11=1, CS10=1 (Prescaler=64)
 }
 
@@ -134,7 +137,7 @@ void uart0_init(void)
 
     m1 = (firebird.head.y - firebird.tail.y)/(firebird.head.x - firebird.tail.x);
     m2 = (dest.y - firebird.tail.y)/(dest.x - firebird.tail.x);
-	
+
 	value = (m2 - m1)/(1 + m1*m2 );
 
     if(abs(value) >=1)
@@ -144,13 +147,13 @@ void uart0_init(void)
 		angle= -90-(atan(value)*(180/pi));
 	}
 	else if(value>0){
-		
+
 	value = (1 + m1*m2 )/(m2 - m1);
 	angle= 90-(atan(value)*(180/pi));
 	}
 	else if (value == 0)
 	angle=0;
-	
+
 
     if(head_dist > sqrt(pow(arucolength,2) + pow(tail_dist,2))){
         if(angle < 0)
@@ -174,7 +177,7 @@ int angle_optional(){
 
     m1 = (firebird.head.y - firebird.tail.y)/(firebird.head.x - firebird.tail.x);
     m2 = (dest.y - firebird.tail.y)/(dest.x - firebird.tail.x);
-	
+
 	value = (m2 - m1)/(1 + m1*m2 );
 	if (value == 0)
 	angle=0;
@@ -189,14 +192,14 @@ int angle_optional(){
 	}
 	else
 	angle=atan(value)*(180/pi);
-	
+
 if (angle < 0)
 angle=angle+180;
-	
-return (int)angle;	
+
+return (int)angle;
 }*/
 
-
+// function to calculate the speed of motors from the PID controller
 int compute(int angle){
     float P, I, D, output;
 	I=0;
@@ -205,7 +208,9 @@ int compute(int angle){
     D = 0.01*pid.kd * (angle - error_previous);
 
     output = P + I + D;
-
+	 /*output is limited between -120 to 120
+		 the 120 limit is chosen such that the the motor speed in extreme cases
+		 should not go beyond 255 which is the maximum the register can store*/
     if(output > 120){
         output = 120;
     }
@@ -214,28 +219,33 @@ int compute(int angle){
     }
 
     error_previous = angle;
-
+		//output may be a float value must be converted to integer type before returning
     return (int)output;
 }
-
+//function to reset the elements of the number array
 void resetNumber(){
     number[0] = 0;
     number[1] = 0;
     number[2] = 0;
     number[3] = 0;
 }
-
+//function to parse the values received from python script
 void parsePacket(){
 
     int i = 0;
     int j = 0;
-
+		//str is the string where the received data packet is stored
+		//when the string element is not end of string
     while(str[i] != '\0'){
-		
+		//if the strung element is T means the values following will be of target co-ordinates
 		if(str[i] == 'T'){
-            i++;
+            i++; //next element
             for(j=0; j<2; j++){
+							//j<2 means two values in total will be parsed for T
+							//while the string element is not a delimiter('|')
                 while(str[i] != '|'){
+									//this logic builds the from the individual digits
+									//the character obtained is first converted into integer type by subtracting 30 from it
                     number[j] = number[j]*10 + (str[i] - '0');
                     i++;
                 }
@@ -244,8 +254,8 @@ void parsePacket(){
             dest.x = number[0];
             dest.y = number[1];
             resetNumber();
-        }
-
+        }//once the numbers assigned to required variable those are reset to be used again
+				//if the string element is P then the following values will be for the pid controller
         if(str[i] == 'P'){
             i++;
             for(j=0; j<3; j++){
@@ -261,7 +271,7 @@ void parsePacket(){
             pid.kd = number[2];
             resetNumber();
         }
-        
+        // if the string element is R then the following values will be robot's co-ordinates
         if(str[i] == 'R'){
             i++;
             for(j=0; j<4; j++){
@@ -278,7 +288,7 @@ void parsePacket(){
             firebird.tail.y = number[3];
             resetNumber();
         }
-		
+		//if string element is A then the following value is angle
 		if(str[i] == 'A'){
             i++;
             for(j=0; j<1; j++){
@@ -292,28 +302,31 @@ void parsePacket(){
             error_angle = number[0];
             resetNumber();
         }
-		
+
         i++;
     }
 }
-
+//ISR to store the data packet received
 ISR(USART0_RX_vect){
+	//data received is stored in data variable
 	data = UDR0;
+	//'>'indicates end of packet
 	if(data=='>'){
 		flag = 0;
 		str[count]='\0';
 		count = 0;
 	}
+	//store values in str string
 	else if(flag){
 		str[count++] = data;
 	}
-
+//'<'indicates starting of packet
 	if(data == '<'){
 		flag = 1;
-		
+
 	}
 }
-
+//initializing all ports, timer5,uart0 and interrupts
 void init_devices (void)
 {
  cli();
@@ -329,24 +342,29 @@ int main()
 	init_devices();
 	lcd_set_4bit();
 	lcd_init();
+	//initializing the robot with forward speed
     velocity(127, 127);
     forward();
-	
+
 	while(1){
+		//if the packet is completely received
 		if(!flag){
             parsePacket();
+						//distance between destination and robot if less than 10 then stop
             head_dist = sqrt(pow(dest.x - firebird.head.x,2) + pow(dest.y - firebird.head.y,2));
 			if(head_dist <10){
 				velocity(0,0);
 			}
+			//from the transmitter side 180 is added to the angle_optional
+			//at receiver end it is subtracted from the value which is passed to pid controller
 			else{
             motorspeed = compute(error_angle-180);
             velocity(127 - motorspeed, 124 + motorspeed);
-			}			
+			}
             lcd_print(1,1, 127-motorspeed, 3);
             lcd_print(1,5, 124+motorspeed, 3);
             lcd_print(1,9,abs(error_angle-180), 3);
-			
+
             /*lcd_print(1,13, firebird.tail.y, 3);
             lcd_print(2,1, pid.kp, 3);
             lcd_print(2,4, pid.kd, 3);

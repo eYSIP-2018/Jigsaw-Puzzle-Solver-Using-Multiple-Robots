@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.20)  1 JUL 2018 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.20)  2 JUL 2018 01:49
 entering extended mode
 **./report_eYSIP.tex
 (report_eYSIP.tex
@@ -117,26 +117,6 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen119
 \l_MT_below_shortintertext_sep=\dimen120
 )
-(E:\applications\miktex\tex\latex\graphics\graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(E:\applications\miktex\tex\latex\graphics\graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(E:\applications\miktex\tex\latex\graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(E:\applications\miktex\tex\latex\graphics-cfg\graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-
-(E:\applications\miktex\tex\latex\graphics-def\pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen121
-\Gin@req@width=\dimen122
-)
 (E:\applications\miktex\tex\generic\babel\babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
 
@@ -156,7 +136,7 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 (E:\applications\miktex\tex\generic\babel\babel.def
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count104
-\U@D=\dimen123
+\U@D=\dimen121
 
 (E:\applications\miktex\tex\generic\babel\txtbabel.def)
 \bbl@dirlevel=\count105
@@ -246,7 +226,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (E:\applications\miktex\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen124
+\@linkdim=\dimen122
 \Hy@linkcounter=\count124
 \Hy@pagecounter=\count125
 
@@ -272,10 +252,10 @@ Package hyperref Info: Bookmarks ON on input line 4762.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen125
+\XeTeXLinkMargin=\dimen123
 \Fld@menulength=\count128
-\Field@Width=\dimen126
-\Fld@charsize=\dimen127
+\Field@Width=\dimen124
+\Fld@charsize=\dimen125
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -303,7 +283,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip50
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
@@ -320,23 +300,23 @@ s
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 25.
+less on input line 24.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 26.
+less on input line 25.
 
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip60
 \aftertitleunit=\skip61
-\ttl@plus=\dimen128
-\ttl@minus=\dimen129
+\ttl@plus=\dimen126
+\ttl@minus=\dimen127
 \ttl@toksa=\toks20
-\titlewidth=\dimen130
-\titlewidthlast=\dimen131
-\titlewidthfirst=\dimen132
+\titlewidth=\dimen128
+\titlewidthlast=\dimen129
+\titlewidthfirst=\dimen130
 )
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcolorbox.sty
 Package: tcolorbox 2018/03/22 version 4.13 text color boxes
@@ -346,8 +326,8 @@ Package: tcolorbox 2018/03/22 version 4.13 text color boxes
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
 mmon.tex
 \pgfutil@everybye=\toks21
-\pgfutil@tempdima=\dimen133
-\pgfutil@tempdimb=\dimen134
+\pgfutil@tempdima=\dimen131
+\pgfutil@tempdimb=\dimen132
 
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
 mmon-lists.tex))
@@ -364,7 +344,26 @@ Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+(E:\applications\miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
+(E:\applications\miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(E:\applications\miktex\tex\latex\graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(E:\applications\miktex\tex\latex\graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(E:\applications\miktex\tex\latex\graphics-def\pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen133
+\Gin@req@width=\dimen134
+)
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
 
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.c
@@ -1011,33 +1010,51 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 (report_eYSIP.aux)
 \openout1 = `report_eYSIP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring ON on input line 73.
+ (E:\applications\miktex\tex\latex\hyperref\nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
+(E:\applications\miktex\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count328
+)
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
+
+(report_eYSIP.out) (report_eYSIP.out)
+\@outlinefile=\write6
+\openout6 = `report_eYSIP.out'.
+
+ ABD: EveryShipout initializing macros
 (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count328
+\scratchcounter=\count329
 \scratchdimen=\dimen277
-\scratchbox=\box71
-\nofMPsegments=\count329
-\nofMParguments=\count330
+\scratchbox=\box72
+\nofMPsegments=\count330
+\nofMParguments=\count331
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count331
+\MPscratchCnt=\count332
 \MPscratchDim=\dimen278
-\MPnumerator=\count332
-\makeMPintoPDFobject=\count333
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
 \everyMPtoPDFconversion=\toks45
 ) (E:\applications\miktex\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1052,26 +1069,6 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring ON on input line 74.
-
-(E:\applications\miktex\tex\latex\hyperref\nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(E:\applications\miktex\tex\generic\oberdiek\gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count334
-)
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
-
-(report_eYSIP.out) (report_eYSIP.out)
-\@outlinefile=\write6
-\openout6 = `report_eYSIP.out'.
-
- ABD: EveryShipout initializing macros
 \c@lstlisting=\count335
 
 (E:\applications\miktex\tex\latex\base\inputenc.sty
@@ -1082,7 +1079,7 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 <logo.png, id=74, 123.46124pt x 131.49126pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 92.
+Package pdftex.def Info: logo.png  used on input line 91.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
  [1
 
@@ -1091,47 +1088,47 @@ Package pdftex.def Info: logo.png  used on input line 92.
 ]
 Chapter 1.
 
-Overfull \hbox (10.72046pt too wide) in paragraph at lines 95--95
+Overfull \hbox (10.72046pt too wide) in paragraph at lines 94--94
 |[]\OT1/cmr/bx/n/24.88 A Sys-tem for Solv-ing Jig-saw Puz-
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 102--102
+Underfull \hbox (badness 1558) in paragraph at lines 101--101
 []\OT1/cmr/m/n/10.95 Pose and ori-en-ta-tion cal-cu-la-tion of 2 Fire-bird robo
 ts us-ing
  []
 
 
-Overfull \hbox (4.07866pt too wide) in paragraph at lines 99--110
+Overfull \hbox (4.07866pt too wide) in paragraph at lines 98--109
 [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 115.
 
 (E:\applications\miktex\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 115.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 117.
+Package pdftex.def Info: logo.png  used on input line 116.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117   \item  X
+l.116   \item  X
                 Bee(3) [1
 
 ]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 146.
+Package pdftex.def Info: logo.png  used on input line 145.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 146.
+Package pdftex.def Info: logo.png  used on input line 145.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1143,11 +1140,11 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
 [2]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 173.
+Package pdftex.def Info: logo.png  used on input line 172.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 173.
+Package pdftex.def Info: logo.png  used on input line 172.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1160,15 +1157,15 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
 <aruco.png, id=113, 481.8pt x 361.35pt>
 File: aruco.png Graphic file (type png)
 <use aruco.png>
-Package pdftex.def Info: aruco.png  used on input line 186.
+Package pdftex.def Info: aruco.png  used on input line 185.
 (pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 190.
+Package pdftex.def Info: logo.png  used on input line 189.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 190.
+Package pdftex.def Info: logo.png  used on input line 189.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1179,24 +1176,16 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
 
 [4 <./aruco.png>]
 
-Package hyperref Warning: Suppressing link with empty target on input line 210.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 210.
-
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 213.
+Package hyperref Warning: Suppressing link with empty target on input line 212.
 
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 214.
+Package pdftex.def Info: logo.png  used on input line 213.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 214.
+Package pdftex.def Info: logo.png  used on input line 213.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 Package Fancyhdr Warning: \headheight is too small (26.0pt): 
@@ -1207,11 +1196,11 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
 [5]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 220.
+Package pdftex.def Info: logo.png  used on input line 219.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 220.
+Package pdftex.def Info: logo.png  used on input line 219.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1223,11 +1212,11 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
 [6]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 238.
+Package pdftex.def Info: logo.png  used on input line 237.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 238.
+Package pdftex.def Info: logo.png  used on input line 237.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1239,11 +1228,11 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
 [7]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 258.
+Package pdftex.def Info: logo.png  used on input line 257.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 258.
+Package pdftex.def Info: logo.png  used on input line 257.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1255,28 +1244,28 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
 [8]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 267.
+Package pdftex.def Info: logo.png  used on input line 266.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
  [9
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (report_eYSIP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
 Package rerunfilecheck Info: File `report_eYSIP.out' has not changed.
 (rerunfilecheck)             Checksum: 2410C2886046994AA07D5487CAAEFE6B;488.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
  ) 
 Here is how much of TeX's memory you used:
  32724 strings out of 493305
  654241 string characters out of 3141062
- 757047 words of memory out of 3000000
+ 757165 words of memory out of 3000000
  35822 multiletter control sequences out of 15000+200000
  541038 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,15n,101p,1128b,844s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,15n,101p,1128b,846s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/applica
 tions/miktex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><E:/applications/miktex
 /fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/applications/miktex/fonts/type1/
@@ -1287,9 +1276,9 @@ ions/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><E:/applications/miktex/fo
 nts/type1/public/amsfonts/cm/cmr8.pfb><E:/applications/miktex/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><E:/applications/miktex/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb><E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report_eYSIP.pdf (10 pages, 695944 bytes).
+Output written on report_eYSIP.pdf (10 pages, 696520 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
+ 202 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
