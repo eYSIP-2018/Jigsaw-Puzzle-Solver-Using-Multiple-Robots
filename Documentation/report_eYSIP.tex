@@ -96,7 +96,7 @@ contents={\includegraphics{logo}}
 The prime motive of this project is to develop a multi Robot based \hspace{0 em} Autonomous Puzzle Solver system that can solve a Jigsaw puzzle.
 \section*{Overview of Task}
 \begin{tabular}{| c | p{27 em} | }\hline
-		\textbf{Task No.} & \hspace{7em}\textbf{Task}\\\hline
+		\textbf{Task No.} & \hspace{10 em}\textbf{Task}\\\hline
 		1 &\small{ Python, OpenCV, Firebird V Intro,XBee Communication} \\\hline
 		2 &\small{ Pose and orientation calculation of 2 Firebird robots using\hspace{3 em} color/Aruco markers }\\\hline
 		3 &\small{ Programming the Go-To-Goal Controller for single Firebird V robot. Tuning the PID\hspace{0 em} values to perfection }\\\hline
@@ -128,7 +128,7 @@ The project is completed till task$.$6  i.e. building Gripper mechanism. Impleme
 
 \section{Software used}
 \begin{itemize}
-  \item python
+  \item Python
   \item openCV
   \item AVR Studio 5.1
   \item XCTU(latest version)
@@ -174,8 +174,16 @@ For communicating to xbee module using python requires xbee and pyserial module.
 \end{center}
 \end{enumerate}\vspace{0 em}
 The xbee model provided(XBee S2C) cannot be read properly using the earlier versions of XCTU. So it is recommended to use the \href{https://www.digi.com/support/productdetail?pid=3352&type=utilities}{latest version}. Follow the previous Docs for configuration using XCTU. After configuration and testing over XCTU, communication is again tested using the python script. Once the communication is established it is time to connect the xbee modules on the Firebird V robots. How to guide can be found in the hardware manual of Firebird V.
+\subsubsection*{Image rotation}
+For rotating the image in case of template matching we are using rotate function available in imutils module. To install \href{https://www.pyimagesearch.com/2015/02/02/just-open-sourced-personal-imutils-package-series-opencv-convenience-functions/}{imutils}
+\begin{center}
+\framebox{\textcolor{gray}{pip install imutils}}
+\end{center}
 \subsection*{ArUco detection}
 Then comes the localisation of robots. For that purpose we are using overhead camera and ArUco markers. The position and orientation of the ArUco marker is first calculated using python script and \href{https://docs.python.org/2/library/math.html}{math module} which is inbuilt in python. Angle is calculated such that it ranges from 0 to 360 degrees. The python script can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/Aruco_pose.py}{here}.
+\begin{center}
+\includegraphics[scale=0.5]{aruco.png}
+\end{center}
 \subsection*{Go-To-Goal Controller}
 For the Go-To-Goal Controller we first found the orientation and distance of the robot from its goal or destination. Then the error angle is calculated by subtracting angle with respect to frame from angle with respect to destination. The code can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/Aruco_pose_with_other_point.py}{here}. In another way the error angle can be found by
 \begin{center}
@@ -199,12 +207,12 @@ r\textsubscript{y} $=$ robot y co-ordinate\\
 A symbolizes error angle\\
 $>$ symbolizes end of packet\end{center}
 Once received, the packet is successfully parsed by the robot in an ISR and the speeds are assigned to the motors as PWM duty-cycle.The \href{}{c code} and python \href{}{script} can be found here. When the robot is around 10 pixels away from its destination it stops, showing it has reached the destination. This is because the robot is bigger then the marker and before the center point reaches its destination robot will have already reached there.
-We completed the path planning in various steps. When the destination is given to the python script it first determines which of the two robots is nearer to the destination and then it sends packets to that robot. Video can be found \href{}{here}.
+We completed the path planning in various steps. When the destination is given to the python script it first determines which of the two robots is nearer to the destination and then it sends packets to that robot. Video can be found \href{https://youtu.be/o74QrQ3lfsw}{here}.
 \subsection*{Path planning with Obstacle avoidance}
 The next step is to avoid obstacles. For a robot moving towards its destination, the other robot and the puzzle blocks except the one at its destination are the obstacles for the robot. One of the obstacles is a moving one so the obstacle map needs to be dynamic. So we have to build the obstacle map in every frame. And the path finding algorithm should be fast enough too. We tried various algorithms like dijkstra's with voronoi, Lee's, A* and finally concluded with A* algorithm which seemed fast and reliable. The center points of the obstacles are given to a function which then draws a rectangle around it. The area of the rectangle is treated as the obstacle. So the path finding algorithm avoids those rectangles. We have taken care of the size of the robot by drawing circle around the center of the robot. The path is planned such that there is some distance between the robot's outer shell and the obstacle. Robot's body should not touch the obstacle. First it is done for a single robot then it is implemented for a multi robot environment. Video can be found \href{}{here}.
 \subsection*{Template Matching}
 For solving a jigsaw puzzle we first have to determine which puzzle block goes where. This is done by template matching. We are given with the static image of the arena where there are puzzle blocks placed with different orientation and the final image we have to make out of those puzzle blocks. We first detect the puzzle block from the arena and separate it from background. The final image is divided into same number of pieces as present in the arena. We number each of the piece according to their position. Then we run a template matching function which rotate the block obtained from the arena by 1 degree and finds percentage matching with every piece of final image. For which number piece the matching percentage is maximum, is then
-assigned to the block along with the angle that gave the maximum match. The code can be found \href{}{here}. This angle and robot's orientation both play major role in picking and placing the puzzle block at its destination.
+assigned to the block along with the angle that gave the maximum match. The code can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/arena and puzzle block detection/input_output.py}{here}. This angle and robot's orientation both play major role in picking and placing the puzzle block at its destination.
 \subsection*{Gripper Mechanism}
 The gripper mechanism is build for a bigger block size $12cm\times{12cm\times{12cm}}$. Alongside the gripper we need two more degrees of freedom. One for picking the block and another for rotating the block. As the block has to be rotated around its z-axis we are picking it from top. That makes the gripper to be placed at a height higher than $12cm$. And the servo that will rotate the block has to be placed higher than that and at some
 distance such that while rotating or opening the gripper, it should not touch the robot in order not to damage the gripper. We are using dual shaft servos and their brackets. Once the platform and arm is made we went for some inspiration from the internet for the gripper and tried simulating different ones. Then we finished with a simpler one not to make it heavy for the arm and servo. Once designed in Fusion360  and tested in simulation, we 3D printed the prototype. Once satisfied with the performance we printed two more of them for two robots. For a good grip we made the gripping plates wider and are using rubber bands and foam. By changing the gripping angle it can pick a block as big as $12cm$.
