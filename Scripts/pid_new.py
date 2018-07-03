@@ -2,42 +2,46 @@ import numpy as np
 import cv2
 import cv2.aruco as aruco
 import time
-#from digi.xbee.devices import XBeeDevice, RemoteXBeeDevice, XBee64BitAddress
+# from digi.xbee.devices import XBeeDevice, RemoteXBeeDevice, XBee64BitAddress
 import serial
 from xbee import XBee
 
 ROBOT_MARKER_ID = 11
-tx=int(input("target_x="))
-ty=int(input("target_y="))
-point=(tx,ty)       
-
-
+tx = int(input("target_x="))
+ty = int(input("target_y="))
+point = (tx, ty)
 cap = cv2.VideoCapture(1)
-       
+
 
 def nothing(x):
         pass
 
+
 # Instantiate an XBee device object.
 def communication(inp):
-        ser_port=serial.Serial('COM3',9600)
-        xbee=XBee(ser_port)
-        xbee.tx(dest_addr='\x00\x01',data=inp)
+        # initialising a serial port object
+        # fist parameter is com port
+        # second parameter is baud rate
+        ser_port = serial.Serial('COM3', 9600)
+        # initialising an xbee object at the serial port
+        xbee = XBee(ser_port)
+        # transmit packet in API mode
+        # first parameter is the 16 bit destination address of the receiver xbee
+        # second parameter is the data to be transmitted
+        xbee.tx(dest_addr='\x00\x01', data=inp)
+
 
 def get_marker_angle(point, marker_id):
-
-   
     while(True):
         ret, frame = cap.read()
+        # point = (50, 50)
 
-        #point = (50, 50)
-        
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         aruco_dict = aruco.Dictionary_get(aruco.DICT_5X5_250)
         parameters =  aruco.DetectorParameters_create()
 
         corners, ids, rejectedImgPoints = aruco.detectMarkers(gray, aruco_dict, parameters=parameters)
-        
+
         try:
             idx = None
             for i, j in enumerate(ids):
@@ -64,7 +68,7 @@ def get_marker_angle(point, marker_id):
             m2 = (Ay-By)/(Ax-Bx)
             m1 = (Ay-point[1])/(Ax-point[0])
             theta = np.arctan((m2-m1)/(1+m1*m2))*180/np.pi
-            
+
             if pointdist_head > np.sqrt(arucolength**2 + pointdist_tail**2):
                 if theta < 0:
                     theta = 180 + theta
@@ -75,7 +79,7 @@ def get_marker_angle(point, marker_id):
         except:
                 Ax,Ay,Bx,By,theta= (0,0,0,0,0)
         gray = aruco.drawDetectedMarkers(gray, corners)
-        
+
         x,y=gray.shape
         if(point[0]>x):
                 tx=x
@@ -172,7 +176,7 @@ pid = PID()
 
 
 while(1):
-               
+
        Ax,Ay,Bx,By,theta=get_marker_angle(point,ROBOT_MARKER_ID)
        #print(theta)
        pid.set_parameters()
@@ -188,6 +192,6 @@ while(1):
        #array=['<']
        if pid.CLOSE != 0:
                break
-        
+
 cap.release()
 cv2.destroyAllWindows()
