@@ -5,7 +5,7 @@ import numpy as np
 from config import *
 
 def get_aruco_markers(img):    
-    aruco_dict = aruco.Dictionary_get(aruco.DICT_5X5_250)
+    aruco_dict = aruco.Dictionary_get(aruco.DICT_5X5_50)
     parameters =  aruco.DetectorParameters_create()
 
     try:
@@ -46,7 +46,7 @@ def get_marker_by_id(corners, ids, aruco_id):
                 idx = i
         return corners[idx][0]
     except:
-        raise Exception("aruco with id " + str(aruco_id) + " not found")
+        raise Exception("get_marker_by_id: aruco with id " + str(aruco_id) + " not found")
 
 def get_marker_angle(img, point, marker_id):
     try:
@@ -67,10 +67,10 @@ def get_marker_angle(img, point, marker_id):
         center_dist = np.sqrt((Cx-point[0])**2 + (Cy-point[1])**2)
         head_dist = np.sqrt((Hx-point[0])**2 + (Hy-point[1])**2)
 
-        m2 = (Cy-Hy)/(Cx-Hx)
-        m1 = (Cy-point[1])/(Cx-point[0])
+        m2 = (Cy-Hy)/(Cx-Hx + 0.001)
+        m1 = (Cy-point[1])/(Cx-point[0] + 0.001)
 
-        theta = np.arctan((m2-m1)/(1+m1*m2))*180/np.pi
+        theta = np.arctan((m2-m1)/(1+m1*m2+0.001))*180/np.pi
 
         if head_dist > np.sqrt(arucolength**2 + center_dist**2):
             if theta < 0:
@@ -82,4 +82,4 @@ def get_marker_angle(img, point, marker_id):
     except Exception as e:
         raise Exception(e)
 
-    return Cx,Cy,Hx,Hy,int(theta)
+    return (Cx,Cy),(Hx,Hy),int(theta)

@@ -1,16 +1,17 @@
+import time
 import serial
 from xbee import XBee
 
 
 class XBeeComm:
 
-    def __init__(self, com='COM3', baud=9600):
-        #self.xbee = XBee(serial.Serial(com,baud))
-        pass
+    def __init__(self, com='/dev/ttyUSB0', baud=9600):
+        self.xbee = XBee(serial.Serial(com,baud))
         
-    def tx(self, data, dest='\x00\x01'):
-        print(data); return
-        #self.xbee.tx(dest_addr=dest,data=data)
+    def tx(self, data, dest):
+        #print(data)
+        #return
+        self.xbee.tx(dest_addr=dest,data=data)
 
 
 class Packets:
