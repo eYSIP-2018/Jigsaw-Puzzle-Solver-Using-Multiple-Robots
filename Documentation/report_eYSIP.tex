@@ -181,13 +181,13 @@ For rotating the image in case of template matching we are using rotate function
 \framebox{\textcolor{gray}{pip install imutils}}
 \end{center}
 \subsection*{ArUco detection}
-Then comes the localisation of robots. For that purpose we are using overhead camera and ArUco markers. The position and orientation of the ArUco marker is first calculated using python script and \href{https://docs.python.org/2/library/math.html}{math module\textsuperscript{8}} which is inbuilt in python. Angle is calculated such that it ranges from 0 to 360 degrees. The python script can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/Aruco_pose.py}{here}.
+Then comes the localisation of robots. For that purpose we are using overhead camera and ArUco markers. The position and orientation of the ArUco marker is first calculated using python script and \href{https://docs.python.org/2/library/math.html}{math module\textsuperscript{8}} which is inbuilt in python. Angle is calculated such that it ranges from 0 to 360 degrees. The python script can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/ArUco detection orientation/Aruco_pose.py}{here}.
 \begin{center}
 \includegraphics[scale=0.5]{aruco.png}\\
 \small{Figure\textbf{. ArUco orientation and position}}
 \end{center}
 \subsection*{Go-To-Goal Controller}
-For the Go-To-Goal Controller we first found the orientation and distance of the robot from its goal or destination. Then the error angle is calculated by subtracting angle with respect to frame from angle with respect to destination. The code can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/Aruco_pose_with_other_point.py}{here}. In another way the error angle can be found by
+For the Go-To-Goal Controller we first found the orientation and distance of the robot from its goal or destination. Then the error angle is calculated by subtracting angle with respect to frame from angle with respect to destination. The code can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/ArUco detection orientation/Aruco_pose_with_other_point.py}{here}. In another way the error angle can be found by
 \begin{center}
 $error angle = \arctan \left (\frac{m - n}{1 - m\times n}\right)$\\
 m = orientation of robot with respect to frame\\
@@ -210,10 +210,10 @@ r\textsubscript{x} $=$ robot x co-ordinate\\
 r\textsubscript{y} $=$ robot y co-ordinate\\
 A symbolizes error angle\\
 $>$ symbolizes end of packet\end{center}
-Once received, the packet is successfully parsed by the robot in an ISR and the speeds are assigned to the motors as PWM duty-cycle.The \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Firebird V/firebird.c}{c code} and python \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/pid_new.py}{script} can be found here. When the robot is around 10 pixels away from its destination it stops, showing it has reached the destination. This is because the robot is bigger then the marker and before the center point reaches its destination robot will have already reached there.
+Once received, the packet is successfully parsed by the robot in an ISR and the speeds are assigned to the motors as PWM duty-cycle.The \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Firebird V/firebird.c}{c code} and python \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/tree/master/Scripts/PID control}{script} can be found here. When the robot is around 10 pixels away from its destination it stops, showing it has reached the destination. This is because the robot is bigger then the marker and before the center point reaches its destination robot will have already reached there.
 We completed the path planning in various steps. When the destination is given to the python script it first determines which of the two robots is nearer to the destination and then it sends packets to that robot. Video can be found \href{https://youtu.be/o74QrQ3lfsw}{here}.
 \subsection*{Path planning with Obstacle avoidance}
-The next step is to avoid obstacles. For a robot moving towards its destination, the other robot and the puzzle blocks except the one at its destination are the obstacles for the robot. One of the obstacles is a moving one so the obstacle map needs to be dynamic. So we have to build the obstacle map in every frame. And the path finding algorithm should be fast enough too. We tried various algorithms like dijkstra's\textsuperscript{10} with voronoi\textsuperscript{9}, Lee's, A*\textsuperscript{11} and finally concluded with A* algorithm which seemed fast and reliable. The center points of the obstacles are given to a function which then draws a rectangle around it. The area of the rectangle is treated as the obstacle. So the path finding algorithm avoids those rectangles. We have taken care of the size of the robot by drawing circle around the center of the robot. The path is planned such that there is some distance between the robot's outer shell and the obstacle. Robot's body should not touch the obstacle. First it is done for a single robot then it is implemented for a multi robot environment. Video can be found \href{}{here}.
+The next step is to avoid obstacles. For a robot moving towards its destination, the other robot and the puzzle blocks except the one at its destination are the obstacles for the robot. One of the obstacles is a moving one so the obstacle map needs to be dynamic. So we have to build the obstacle map in every frame. And the path finding algorithm should be fast enough too. We tried various algorithms like dijkstra's\textsuperscript{[10]} with voronoi\textsuperscript{[9]}, Lee's, A*\textsuperscript{[11]} and finally concluded with A* algorithm which seemed fast and reliable. The center points of the obstacles are given to a function which then draws a rectangle around it. The area of the rectangle is treated as the obstacle. So the path finding algorithm avoids those rectangles. We have taken care of the size of the robot by drawing circle around the center of the robot. The path is planned such that there is some distance between the robot's outer shell and the obstacle. Robot's body should not touch the obstacle. First it is done for a single robot then it is implemented for a multi robot environment. Link to the code is given. Video can be found \href{}{here}.
 \subsection*{Template Matching}
 For solving a jigsaw puzzle we first have to determine which puzzle block goes where. This is done by template matching. We are given with the static image of the arena where there are puzzle blocks placed with different orientation and the final image we have to make out of those puzzle blocks. We first detect the puzzle block from the arena and separate it from background. The final image is divided into same number of pieces as present in the arena. We number each of the piece according to their position. Then we run a template matching function which rotate the block obtained from the arena by 1 degree and finds percentage matching with every piece of final image. For which number piece the matching percentage is maximum, is then
 assigned to the block along with the angle that gave the maximum match. The code can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/arena and puzzle block detection/input_output.py}{here}. This angle and robot's orientation both play major role in picking and placing the puzzle block at its destination.
@@ -225,12 +225,18 @@ assigned to the block along with the angle that gave the maximum match. The code
 \end{center}
 
 \subsection*{Final Implementation}
-The whole of the solution is first implemented for a single robot. Every block has 4 pickup points around it and at the center there is a point assigned where it will be placed and where the robot has to be to place it correctly. The path finding algorithm finds the nearest point out of those 4 point for the nearest block and goes there. Once reached it then aligns parallel to the side of block it is facing. It then rotates the gripper if needed and picks the block, travel to the destination for that particular block avoiding all other blocks, place it in proper orientation and then moves towards next nearest block. Here is the \href{}{link} to codes.
+The whole of the solution is first implemented for a single robot. Every block has 4 pickup points around it and at the center there is a point assigned where it will be placed and where the robot has to be to place it correctly. The path finding algorithm finds the nearest point out of those 4 point for the nearest block and goes there. Once reached it then aligns parallel to the side of block it is facing. It then rotates the gripper if needed and picks the block, travel to the destination for that particular block avoiding all other blocks, place it in proper orientation and then moves towards next nearest block. Here is the \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots}{link} to codes.
+\section{Flowcharts}
+
 \section{Demo}
-\href{https://youtu.be/8kYgtcB6HzI}{Youtube Link} of demonstration video 
+Here are the links of demonstration video.
+\begin{itemize}
+\item \href{https://youtu.be/_RwL_YZDmpI}{link} for single robot demo
+\item \href{https://youtu.be/jv9p9h0FJP0}{link} for multi robot demo
+\end{itemize} 
 
 \section{Future Work}
-A multi robot box pushing problem can be implemented by tweaking some of the functions and using complex mathematics. It will be tough.
+A multi robot box pushing problem can be implemented by tweaking some of the functions and using complex mathematics. Instead of avoiding collision between robots, they should pass the blocks to the other one when they come near.
 \section{Bug report and Challenges}
 \begin{itemize}
 \color{red}
@@ -238,14 +244,16 @@ A multi robot box pushing problem can be implemented by tweaking some of the fun
 The math module and the math header file in python and c respectively includes $arctan$, but for slope greater than -1 and less than 1 it does not give any output. We are unable to get the the angles between -45 and 45. So we went for $arccot$ for this range then converted it back into $arctan$. So we are calculating the angle and sending it to the robot instead of letting it calculate.
 \color{red}
 \item Block size\\\color{black}
-When building the obstacle map it is taken care that the grippers of two robots do not collide.
+When building the obstacle map it is taken care that the two robots do not collide.
 \color{red}
 \item Gripper\\\color{black}
 The gripper mechanism needs to be light and big enough to pick and place a big size block. Light because it should not add extra weight to the servo.
 \color{red}
 \item Moving obstacle\\\color{black}
 Path planning has to be done avoiding the moving obstacle.
-
+\color{red}
+\item Power to drive the servos\\\color{black}
+While testing we found that the servo driver could not provide that much power to drive the servos. So we tried shutting all the sensors and LCD which helped a little.
 \color{red}
 \item Camera\\\color{black}
 The frame captured from the camera should be big enough to accommodate all the blocks and two robots and also focus should be good for the markers to be detected properly everywhere. 
