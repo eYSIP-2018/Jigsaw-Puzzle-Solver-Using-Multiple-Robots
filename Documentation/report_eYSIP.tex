@@ -147,8 +147,8 @@ The final gripper that is designed is given below. All these parts are designed 
 \includegraphics[scale=0.2]{gripplate.png}
 \includegraphics[scale=0.2]{HoldingPlate.png}\\
 \small{Figure\textbf{. Gripping Plate} \hspace{5 em}Figure\textbf{. Servo Holder}}\\
-\includegraphics[scale=0.07]{final.jpg}\\
-\small{Figure\textbf{. FInal assembled arm and gripper}}
+\includegraphics[scale=0.045]{final.jpg}\\
+\small{Figure\textbf{. Final assembled arm and gripper}}
 \end{center}
 \section{Software and Code}
 \subsection*{Dependencies}
@@ -218,10 +218,10 @@ The next step is to avoid obstacles. For a robot moving towards its destination,
 For solving a jigsaw puzzle we first have to determine which puzzle block goes where. This is done by template matching. We are given with the static image of the arena where there are puzzle blocks placed with different orientation and the final image we have to make out of those puzzle blocks. We first detect the puzzle block from the arena and separate it from background. The final image is divided into same number of pieces as present in the arena. We number each of the piece according to their position. Then we run a template matching function which rotate the block obtained from the arena by 1 degree and finds percentage matching with every piece of final image. For which number piece the matching percentage is maximum, is then
 assigned to the block along with the angle that gave the maximum match. The code can be found \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots/blob/master/Scripts/arena and puzzle block detection/input_output.py}{here}. This angle and robot's orientation both play major role in picking and placing the puzzle block at its destination.
 \begin{center}
+\includegraphics[scale = 0.35]{templatem.jpg}\\
+\small{Figure\textbf{. Puzzle block no. and block position}}\\
 \includegraphics[scale = 0.4]{template.jpg}\\
 \small{Figure\textbf{. Puzzle block no. and orientation obtained from Template matching}}\\
-\includegraphics[scale = 0.32]{templatem.jpg}\\
-\small{Figure\textbf{. Puzzle block no. and block position}}\\
 \end{center}
 
 \subsection*{Final Implementation}
