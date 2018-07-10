@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.20)  10 JUL 2018 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.20)  10 JUL 2018 20:56
 entering extended mode
 **./report_eYSIP.tex
 (report_eYSIP.tex
@@ -1271,11 +1271,6 @@ File: capture.png Graphic file (type png)
 <use capture.png>
 Package pdftex.def Info: capture.png  used on input line 197.
 (pdftex.def)             Requested size: 141.152pt x 146.04526pt.
-
-
-Package hyperref Warning: Suppressing link with empty target on input line 216.
-
-
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 217.
@@ -1284,6 +1279,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 217.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (26.0pt): 
  Make it at least 34.65257pt.
@@ -1291,23 +1287,23 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./capture.png>]
-<templatem.jpg, id=157, 748.59676pt x 233.07076pt>
-File: templatem.jpg Graphic file (type jpg)
-<use templatem.jpg>
-Package pdftex.def Info: templatem.jpg  used on input line 221.
-(pdftex.def)             Requested size: 262.01279pt x 81.57597pt.
-<template.jpg, id=158, 487.22025pt x 389.0535pt>
-File: template.jpg Graphic file (type jpg)
-<use template.jpg>
-Package pdftex.def Info: template.jpg  used on input line 223.
-(pdftex.def)             Requested size: 194.88464pt x 155.61864pt.
+<path2.jpg, id=157, 1284.8pt x 722.7pt>
+File: path2.jpg Graphic file (type jpg)
+<use path2.jpg>
+Package pdftex.def Info: path2.jpg  used on input line 218.
+(pdftex.def)             Requested size: 385.44298pt x 216.81166pt.
+<path.jpg, id=158, 1284.8pt x 722.7pt>
+File: path.jpg Graphic file (type jpg)
+<use path.jpg>
+Package pdftex.def Info: path.jpg  used on input line 220.
+(pdftex.def)             Requested size: 385.44298pt x 216.81166pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 224.
+Package pdftex.def Info: logo.png  used on input line 221.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 224.
+Package pdftex.def Info: logo.png  used on input line 221.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1316,29 +1312,55 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7 <./templatem.jpg>]
-<solutiongrid.jpg, id=165, 320.99925pt x 279.444pt>
+[7 <./path2.jpg>]
+<templatem.jpg, id=165, 748.59676pt x 233.07076pt>
+File: templatem.jpg Graphic file (type jpg)
+<use templatem.jpg>
+Package pdftex.def Info: templatem.jpg  used on input line 227.
+(pdftex.def)             Requested size: 262.01279pt x 81.57597pt.
+<template.jpg, id=166, 487.22025pt x 389.0535pt>
+File: template.jpg Graphic file (type jpg)
+<use template.jpg>
+Package pdftex.def Info: template.jpg  used on input line 229.
+(pdftex.def)             Requested size: 194.88464pt x 155.61864pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 230.
+(pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 230.
+(pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (26.0pt): 
+ Make it at least 34.65257pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./path.jpg> <./templatem.jpg>]
+<solutiongrid.jpg, id=173, 320.99925pt x 279.444pt>
 File: solutiongrid.jpg Graphic file (type jpg)
 <use solutiongrid.jpg>
-Package pdftex.def Info: solutiongrid.jpg  used on input line 232.
+Package pdftex.def Info: solutiongrid.jpg  used on input line 238.
 (pdftex.def)             Requested size: 176.55013pt x 153.69467pt.
-<flowchart.jpg, id=166, 523.35526pt x 807.61725pt>
+<flowchart.jpg, id=174, 523.35526pt x 807.61725pt>
 File: flowchart.jpg Graphic file (type jpg)
 <use flowchart.jpg>
-Package pdftex.def Info: flowchart.jpg  used on input line 233.
+Package pdftex.def Info: flowchart.jpg  used on input line 239.
 (pdftex.def)             Requested size: 392.51546pt x 605.71146pt.
 
-Overfull \hbox (2.51546pt too wide) in paragraph at lines 233--233
+Overfull \hbox (2.51546pt too wide) in paragraph at lines 239--239
  [][] 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 234.
+Package pdftex.def Info: logo.png  used on input line 240.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 234.
+Package pdftex.def Info: logo.png  used on input line 240.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 Package Fancyhdr Warning: \headheight is too small (26.0pt): 
@@ -1346,16 +1368,16 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./template.jpg> <./solutiongrid.jpg>]
+[9 <./template.jpg> <./solutiongrid.jpg>]
 Overfull \vbox (13.71146pt too high) has occurred while \output is active []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 234.
+Package pdftex.def Info: logo.png  used on input line 240.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 234.
+Package pdftex.def Info: logo.png  used on input line 240.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1364,19 +1386,19 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./flowchart.jpg>]
-<obstacle.jpg, id=177, 546.843pt x 666.0885pt>
+[10 <./flowchart.jpg>]
+<obstacle.jpg, id=185, 546.843pt x 666.0885pt>
 File: obstacle.jpg Graphic file (type jpg)
 <use obstacle.jpg>
-Package pdftex.def Info: obstacle.jpg  used on input line 234.
+Package pdftex.def Info: obstacle.jpg  used on input line 240.
 (pdftex.def)             Requested size: 382.78749pt x 466.25877pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 245.
+Package pdftex.def Info: logo.png  used on input line 251.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 245.
+Package pdftex.def Info: logo.png  used on input line 251.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1385,14 +1407,14 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./obstacle.jpg>]
+[11 <./obstacle.jpg>]
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 268.
+Package pdftex.def Info: logo.png  used on input line 274.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 268.
+Package pdftex.def Info: logo.png  used on input line 274.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 
@@ -1401,19 +1423,19 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
-Overfull \hbox (5.17705pt too wide) in paragraph at lines 270--272
+[12]
+Overfull \hbox (5.17705pt too wide) in paragraph at lines 276--278
 []$ 
  []
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 311.
+Package pdftex.def Info: logo.png  used on input line 317.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
-[12
+[13
 
 ]
-Underfull \hbox (badness 6842) in paragraph at lines 312--314
+Underfull \hbox (badness 6842) in paragraph at lines 318--320
 \OML/cmm/m/it/12 http \OT1/cmr/m/n/12 : \OML/cmm/m/it/12 ==code:activestate:com
 =recipes=\OT1/cmr/m/n/12 578919 \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 python \OMS
 /cmsy/m/n/12   \OML/cmm/m/it/12 a \OMS/cmsy/m/n/12  
@@ -1421,11 +1443,11 @@ Underfull \hbox (badness 6842) in paragraph at lines 312--314
 
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 316.
+Package pdftex.def Info: logo.png  used on input line 322.
 (pdftex.def)             Requested size: 123.46092pt x 131.49092pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 316.
+Package pdftex.def Info: logo.png  used on input line 322.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 Package Fancyhdr Warning: \headheight is too small (26.0pt): 
@@ -1433,24 +1455,24 @@ Package Fancyhdr Warning: \headheight is too small (26.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
+[14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (report_eYSIP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `report_eYSIP.out' has not changed.
 (rerunfilecheck)             Checksum: 26EC905C4968A6EC1890A816D10964C6;532.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 32934 strings out of 493305
- 657331 string characters out of 3141062
+ 32944 strings out of 493305
+ 657457 string characters out of 3141062
  761383 words of memory out of 3000000
- 35999 multiletter control sequences out of 15000+200000
+ 36007 multiletter control sequences out of 15000+200000
  542186 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,16n,101p,1220b,843s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,16n,101p,1321b,843s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/applica
 tions/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/applications/miktex/
 fonts/type1/public/amsfonts/cm/cmcsc10.pfb><E:/applications/miktex/fonts/type1/
@@ -1463,9 +1485,9 @@ blic/amsfonts/cm/cmr17.pfb><E:/applications/miktex/fonts/type1/public/amsfonts/
 cm/cmr8.pfb><E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/application
 s/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report_eYSIP.pdf (14 pages, 4684870 bytes).
+Output written on report_eYSIP.pdf (15 pages, 4871603 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
