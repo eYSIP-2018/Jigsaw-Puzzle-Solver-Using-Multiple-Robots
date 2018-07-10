@@ -227,7 +227,12 @@ assigned to the block along with the angle that gave the maximum match. The code
 \subsection*{Final Implementation}
 The whole of the solution is first implemented for a single robot. Every block has 4 pickup points around it and at the center there is a point assigned where it will be placed and where the robot has to be to place it correctly. The path finding algorithm finds the nearest point out of those 4 point for the nearest block and goes there. Once reached it then aligns parallel to the side of block it is facing. It then rotates the gripper if needed and picks the block, travel to the destination for that particular block avoiding all other blocks, place it in proper orientation and then moves towards next nearest block. Here is the \href{https://github.com/eYSIP-2018/Jigsaw_Puzzle_Solver_using_Multiple_Robots}{link} to codes.
 \section{Flowcharts}
-
+Here are the flowcharts explaining the work flow.
+\begin{center}
+\includegraphics[scale=0.55]{solutiongrid.jpg}\\
+\includegraphics[scale=0.75]{flowchart.jpg}\\
+\includegraphics[scale=0.7]{obstacle.jpg}
+\end{center}
 \section{Demo}
 Here are the links of demonstration video.
 \begin{itemize}
