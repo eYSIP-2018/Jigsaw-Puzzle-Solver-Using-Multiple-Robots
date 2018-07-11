@@ -340,13 +340,13 @@ void timer5_init()
 	TCCR5B = 0x0B;	//WGM12=1; CS12=0, CS11=1, CS10=1 (Prescaler=64)
 }
 
+
 // Function for robot velocity control
 void velocity (unsigned char left_motor, unsigned char right_motor)
 {
 	OCR5AL = (unsigned char)left_motor;
 	OCR5BL = (unsigned char)right_motor;
 }
-
 
 
 
@@ -403,77 +403,6 @@ void back_mm(unsigned int DistanceInMM)
  back();
  linear_distance_mm(DistanceInMM);
 }
-/*int get_angle(){
-    float arucolength, tail_dist, head_dist;
-    float m1, m2, angle, value;
-	angle=0;
-    arucolength = sqrt(pow(firebird.head.x - firebird.tail.x,2) + pow(firebird.head.y - firebird.tail.y,2));
-    tail_dist = sqrt(pow(dest.x - firebird.tail.x,2) + pow(dest.y - firebird.tail.y,2));
-    head_dist = sqrt(pow(dest.x - firebird.head.x,2) + pow(dest.y - firebird.head.y,2));
-
-    m1 = (firebird.head.y - firebird.tail.y)/(firebird.head.x - firebird.tail.x);
-    m2 = (dest.y - firebird.tail.y)/(dest.x - firebird.tail.x);
-	
-	value = (m2 - m1)/(1 + m1*m2 );
-
-    if(abs(value) >=1)
-		angle = atan(value) * (180/pi);
-	else if (value < 0){
-		value = (1 + m1*m2 )/(m2 - m1);
-		angle= -90-(atan(value)*(180/pi));
-	}
-	else if(value>0){
-		
-	value = (1 + m1*m2 )/(m2 - m1);
-	angle= 90-(atan(value)*(180/pi));
-	}
-	else if (value == 0)
-	angle=0;
-	
-
-    if(head_dist > sqrt(pow(arucolength,2) + pow(tail_dist,2))){
-        if(angle < 0)
-            angle = 180  + angle;
-        else if(angle > 0)
-            angle = -180 + angle;
-        else
-            angle = 180;
-    }
-
-    return (int)angle;
-}
-
-int angle_optional(){
-	float arucolength, tail_dist, head_dist;
-    float m1, m2, angle, value;
-	angle=0;
-    arucolength = sqrt(pow(firebird.head.x - firebird.tail.x,2) + pow(firebird.head.y - firebird.tail.y,2));
-    tail_dist = sqrt(pow(dest.x - firebird.tail.x,2) + pow(dest.y - firebird.tail.y,2));
-    head_dist = sqrt(pow(dest.x - firebird.head.x,2) + pow(dest.y - firebird.head.y,2));
-
-    m1 = (firebird.head.y - firebird.tail.y)/(firebird.head.x - firebird.tail.x);
-    m2 = (dest.y - firebird.tail.y)/(dest.x - firebird.tail.x);
-	
-	value = (m2 - m1)/(1 + m1*m2 );
-	if (value == 0)
-	angle=0;
-	else if (m1*m2 == -1){
-		if (m2>m1)
-		angle= -90;
-		else if(m1>m2)
-		angle= 90;
-	}
-	else if(abs(value)<1){
-		angle=90-(atan(1/value)*(180/pi));
-	}
-	else
-	angle=atan(value)*(180/pi);
-	
-if (angle < 0)
-angle=angle+180;
-	
-return (int)angle;	
-}*/
 
 
 int compute(int angle){
@@ -594,17 +523,13 @@ void parsePacket(){
 }
 void servo_set()
 { 
-  _delay_ms(1000);
-  servo_3(105);
-  _delay_ms(1000);
-  servo_1(0);
-  _delay_ms(1000);
-  servo_2(90);
-  _delay_ms(1000);
-
-  //servo_1_free();
-  //servo_2_free();
-  //servo_3_free();
+	  _delay_ms(1000);
+	  servo_3(105);
+	  _delay_ms(1000);
+	  servo_1(0);
+	  _delay_ms(1000);
+	  servo_2(90);
+	  _delay_ms(1000);
 }
 
 void pick_block(int deg){
@@ -703,8 +628,8 @@ void pick_block(int deg){
 
 	}
     servo_blocking = 0;
-
 }
+
 
 void drop_block(int angle){
 	unsigned char i = 0;
@@ -731,6 +656,7 @@ void drop_block(int angle){
 	back_mm(70);
 }
 
+
 ISR(USART0_RX_vect){
 	data = UDR0;
 	if(data=='>'){
@@ -747,7 +673,6 @@ ISR(USART0_RX_vect){
 		flag = 1;		
 	}
 }
-
 
 
 int main()
@@ -804,8 +729,6 @@ int main()
 				continue;
 				}
 
-
-
             if(stop_bit == 1){
                 stop();
             }
@@ -814,35 +737,23 @@ int main()
 				if(error_angle-180>35){
 					velocity(140,140);
 					left();
-					//_delay_ms(300);
-					//stop();
 				}
 				else if(error_angle-180<-35){
 					velocity(140,140);
 					right();
-				//	_delay_ms(300);
-				//	stop();
 				}
 				else{
 					forward();	
         			motorspeed = compute(error_angle-180);
-					//velocity(110 - motorspeed, 110 + motorspeed);
         			velocity(127 - motorspeed, 124 + motorspeed);
 				}
 			}
             
-
-
             lcd_print(1,1, 127-motorspeed, 3);
             lcd_print(1,5, 124+motorspeed, 3);
             lcd_print(1,9,abs(error_angle-180), 3);
 			lcd_print(2,1, pid.kp, 3);
 			lcd_print(2,8, stop_bit, 3);
-            /*lcd_print(1,13, firebird.tail.y, 3);
-            
-            
-			lcd_print(2,10,dest.x, 3);
-			lcd_print(2,13,dest.y, 3);*/
 		}
 	}
 }
