@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.20)  10 JUL 2018 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2019.3.6)  6 MAR 2019 08:00
 entering extended mode
 **./report_eYSIP.tex
 (report_eYSIP.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-(E:\applications\miktex\tex\latex\base\book.cls
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(E:\applications\miktex\tex\latex\base\bk12.clo
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk12.clo"
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,14 +22,15 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtool
+s.sty"
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
-(E:\applications\miktex\tex\latex\graphics\keyval.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(E:\applications\miktex\tex\latex\tools\calc.sty
+) ("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count88
 \calc@Bcount=\count89
@@ -42,27 +43,34 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count90
 \calc@Cskip=\skip45
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.
+sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-(E:\applications\miktex\tex\latex\amsmath\amsmath.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(E:\applications\miktex\tex\latex\amsmath\amstext.sty
+
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(E:\applications\miktex\tex\latex\amsmath\amsgen.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen105
 ))
-(E:\applications\miktex\tex\latex\amsmath\amsbsy.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen106
 )
-(E:\applications\miktex\tex\latex\amsmath\amsopn.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -117,7 +125,8 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen119
 \l_MT_below_shortintertext_sep=\dimen120
 )
-(E:\applications\miktex\tex\latex\tools\multicol.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
+"
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count104
 \mult@box=\box28
@@ -166,38 +175,41 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \colbreak@box=\box53
 \mc@col@check@num=\count112
 )
-(E:\applications\miktex\tex\generic\babel\babel.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/02/14 3.18 The Babel package
-
-(E:\applications\miktex\tex\generic\babel\switch.def
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+"
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(E:\applications\miktex\tex\latex\babel-english\english.ldf
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
+ish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(E:\applications\miktex\tex\generic\babel\babel.def
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count113
 \U@D=\dimen130
 
-(E:\applications\miktex\tex\generic\babel\txtbabel.def)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count114
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\blindtext\blindtex
+t.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(E:\applications\miktex\tex\latex\tools\xspace.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count115
@@ -219,14 +231,17 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count131
 \c@blind@pangrammax=\count132
 )
-(E:\applications\miktex\tex\latex\hyperref\hyperref.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.
+sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(E:\applications\miktex\tex\generic\oberdiek\hobsub-hyperref.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
+hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(E:\applications\miktex\tex\generic\oberdiek\hobsub-generic.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-
+generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -266,25 +281,30 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(E:\applications\miktex\tex\generic\ifxetex\ifxetex.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(E:\applications\miktex\tex\latex\oberdiek\auxhook.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.s
+ty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(E:\applications\miktex\tex\latex\oberdiek\kvoptions.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen131
 \Hy@linkcounter=\count133
 \Hy@pagecounter=\count134
 
-(E:\applications\miktex\tex\latex\hyperref\pd1enc.def
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.de
+f"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count135
 
-(E:\applications\miktex\tex\latex\00miktex\hyperref.cfg
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.
+cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4509.
@@ -295,8 +315,7 @@ Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count136
-
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+ ("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -320,12 +339,14 @@ LaTeX Info: Redefining \pageref on input line 6443.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(E:\applications\miktex\tex\latex\hyperref\hpdftex.def
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.d
+ef"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count141
 \c@bookmark@seq@number=\count142
 
-(E:\applications\miktex\tex\latex\oberdiek\rerunfilecheck.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfile
+check.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -334,8 +355,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 15.
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip53
 \f@nch@O@elh=\skip54
@@ -355,7 +377,9 @@ less on input line 25.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 26.
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
+
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec.
+sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box54
 \beforetitleunit=\skip62
@@ -367,65 +391,76 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen138
 \titlewidthfirst=\dimen139
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcolorbox.sty
-Package: tcolorbox 2018/03/22 version 4.13 text color boxes
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbo
+x.sty"
+Package: tcolorbox 2019/03/02 version 4.20 text color boxes
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
-mmon.tex
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf
+.sty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfr
+cs.sty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+futil-common.tex"
 \pgfutil@everybye=\toks21
 \pgfutil@tempdima=\dimen140
 \pgfutil@tempdimb=\dimen141
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
-mmon-lists.tex))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-la
-tex.def
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+futil-common-lists.tex"))
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+futil-latex.def"
 \pgfutil@abb=\box55
- (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.cod
-e.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+frcs.code.tex"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision
+.tex")
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
 ))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+Package: pgf 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
-(E:\applications\miktex\tex\latex\graphics\graphicx.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf
+core.sty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(E:\applications\miktex\tex\latex\graphics\graphics.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(E:\applications\miktex\tex\latex\graphics\trig.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(E:\applications\miktex\tex\latex\graphics-cfg\graphics.cfg
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(E:\applications\miktex\tex\latex\graphics-def\pdftex.def
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pg
+fsys.sty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsys.code.tex"
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.c
-ode.tex
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
-de.tex
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+fkeys.code.tex"
 \pgfkeys@pathtoks=\toks22
 \pgfkeys@temptoks=\toks23
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfil
-tered.code.tex
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+fkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks24
 ))
 \pgf@x=\dimen144
@@ -445,34 +480,37 @@ tered.code.tex
 \t@pgf@toka=\toks25
 \t@pgf@tokb=\toks26
 \t@pgf@tokc=\toks27
+\pgf@sys@id@count=\count147
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgf.cfg"
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-p
-dftex.def
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-c
-ommon-pdf.def
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
 )))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysso
-ftpath.code.tex
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count147
-\pgfsyssoftpath@bigbuffer@items=\count148
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfsyssoftpath@smallbuffer@items=\count148
+\pgfsyssoftpath@bigbuffer@items=\count149
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyspr
-otocol.code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\
+pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(E:\applications\miktex\tex\latex\graphics-cfg\color.cfg
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -486,50 +524,50 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.c
-ode.tex
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcore.code.tex"
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
-x
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.cod
-e.tex
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.cod
-e.tex)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.c
-ode.tex
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+.code.tex"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+calc.code.tex"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+util.code.tex")
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+parser.code.tex"
 \pgfmath@dimen=\dimen152
-\pgfmath@count=\count149
+\pgfmath@count=\count150
 \pgfmath@box=\box56
 \pgfmath@toks=\toks28
 \pgfmath@stack@operand=\toks29
 \pgfmath@stack@operation=\toks30
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.code.tex
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.basic.code.tex)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.trigonometric.code.tex)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.random.code.tex)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.comparison.code.tex)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.base.code.tex)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.round.code.tex)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.misc.code.tex)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
-s.integerarithmetics.code.tex)))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.co
-de.tex
-\c@pgfmathroundto@lastzeros=\count150
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.code.tex"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.basic.code.tex")
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.trigonometric.code.tex")
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.random.code.tex")
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.comparison.code.tex")
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.base.code.tex")
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.round.code.tex")
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.misc.code.tex")
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+functions.integerarithmetics.code.tex")))
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+float.code.tex"
+\c@pgfmathroundto@lastzeros=\count151
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepo
-ints.code.tex
-File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@picminx=\dimen153
 \pgf@picmaxx=\dimen154
 \pgf@picminy=\dimen155
@@ -545,122 +583,132 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen165
 \pgf@zy=\dimen166
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
-thconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@path@lastx=\dimen167
 \pgf@path@lasty=\dimen168
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
-thusage.code.tex
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@shorten@end@additional=\dimen169
 \pgf@shorten@start@additional=\dimen170
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresc
-opes.code.tex
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfpic=\box57
 \pgf@hbox=\box58
 \pgf@layerbox@main=\box59
-\pgf@picture@serial@count=\count151
+\pgf@picture@serial@count=\count152
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregr
-aphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgflinewidth=\dimen171
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
-ansformations.code.tex
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@pt@x=\dimen172
 \pgf@pt@y=\dimen173
 \pgf@pt@temp=\dimen174
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequ
-ick.code.tex
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorequick.code.tex"
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreob
-jects.code.tex
-File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
-thprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorear
-rows.code.tex
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfarrowsep=\dimen175
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoresh
-ade.code.tex
-File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgf@max=\dimen176
-\pgf@sys@shading@range@num=\count152
+\pgf@sys@shading@range@num=\count153
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreim
-age.code.tex
-File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreex
-ternal.code.tex
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfexternal@startupbox=\box60
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorela
-yers.code.tex
-File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretr
-ansparency.code.tex
-File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
-tterns.code.tex
-File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\p
+gfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesha
-pes.code.tex
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfm
+oduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
 \pgfnodeparttextbox=\box61
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleplo
-t.code.tex
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfm
+oduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-
-version-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\
+pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
 \pgf@nodesepstart=\dimen177
 \pgf@nodesepend=\dimen178
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-
-version-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (E:\applications\miktex\tex\latex\tools\verbatim.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\
+pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
+))
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks31
 \verbatim@line=\toks32
 \verbatim@in@stream=\read2
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\environ\environ.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.st
+y"
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\trimspaces\trimspaces.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trimspa
+ces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)) (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count153
+))
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+sty"
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count154
 )
 \tcb@titlebox=\box62
 \tcb@upperbox=\box63
 \tcb@lowerbox=\box64
 \tcb@phantombox=\box65
-\c@tcbbreakpart=\count154
-\c@tcblayer=\count155
-\tcolorbox@number=\count156
+\c@tcbbreakpart=\count155
+\c@tcblayer=\count156
+\tcolorbox@number=\count157
 \tcb@temp=\box66
 \tcb@temp=\box67
 \tcb@temp=\box68
@@ -668,44 +716,48 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \tcb@out=\write4
 \tcb@record@out=\write5
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbraster.code.t
-ex
-Library (tcolorbox): 'tcbraster.code.tex' version '4.13'
-\c@tcbrastercolumn=\count157
-\c@tcbrasterrow=\count158
-\c@tcbraster=\count159
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbraste
+r.code.tex"
+Library (tcolorbox): 'tcbraster.code.tex' version '4.20'
+\c@tcbrastercolumn=\count158
+\c@tcbrasterrow=\count159
+\c@tcbraster=\count160
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbskins.code.te
-x
-Library (tcolorbox): 'tcbskins.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbskins
+.code.tex"
+Library (tcolorbox): 'tcbskins.code.tex' version '4.20'
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.co
-de.tex))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
-x))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.cod
-e.tex
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\
+tikz.sty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgff
+or.sty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfk
+eys.sty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+fkeys.code.tex"))
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.s
+ty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+.code.tex"))
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pg
+ffor.code.tex"
+Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
-x)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath
+.code.tex")
 \pgffor@iter=\dimen179
 \pgffor@skip=\dimen180
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\t
-ikz.code.tex
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\tikz.code.tex"
+Package: tikz 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrary
-plothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count160
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pg
+flibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@plot@mark@count=\count161
 \pgfplotmarksize=\dimen181
 )
 \tikz@lastx=\dimen182
@@ -718,74 +770,77 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box71
 \tikz@tempbox=\box72
 \tikz@tempbox@bg=\box73
-\tikztreelevel=\count161
-\tikznumberofchildren=\count162
-\tikznumberofcurrentchild=\count163
-\tikz@fig@count=\count164
+\tikztreelevel=\count162
+\tikznumberofchildren=\count163
+\tikznumberofcurrentchild=\count164
+\tikz@fig@count=\count165
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulemat
-rix.code.tex
-File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count165
-\pgfmatrixcurrentcolumn=\count166
-\pgf@matrix@numberofcolumns=\count167
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfm
+odulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfmatrixcurrentrow=\count166
+\pgfmatrixcurrentcolumn=\count167
+\pgf@matrix@numberofcolumns=\count168
 )
-\tikz@expandcount=\count168
+\tikz@expandcount=\count169
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\l
-ibraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
 \tcb@waterbox=\box74
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbskinsjigsaw.c
-ode.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbskins
+jigsaw.code.tex"
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.20'
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbbreakable.cod
-e.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbbreak
+able.code.tex"
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.20'
 \tcb@testbox=\box75
 \tcb@totalupperbox=\box76
 \tcb@totallowerbox=\box77
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbhooks.code.te
-x
-Library (tcolorbox): 'tcbhooks.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbhooks
+.code.tex"
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.20'
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbtheorems.code
-.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbtheor
+ems.code.tex"
+Library (tcolorbox): 'tcbtheorems.code.tex' version '4.20'
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbfitting.code.
-tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbfitti
+ng.code.tex"
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.20'
 \tcbfitdim=\dimen188
 \tcb@lowerfitdim=\dimen189
 \tcb@upperfitdim=\dimen190
-\tcb@cur@hbadness=\count169
+\tcb@cur@hbadness=\count170
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbxparse.code.t
-ex
-Library (tcolorbox): 'tcbxparse.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbxpars
+e.code.tex"
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.20'
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.s
-ty (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
-Package: expl3 2018-06-14 L3 programming layer (loader) 
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\
+xparse.sty"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+"
+Package: expl3 2019-02-15 L3 programming layer (loader) 
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex
-Package: expl3 2018-06-14 L3 programming layer (code)
-\c_max_int=\count170
-\l_tmpa_int=\count171
-\l_tmpb_int=\count172
-\g_tmpa_int=\count173
-\g_tmpb_int=\count174
-\g__kernel_prg_map_int=\count175
-\c_log_iow=\count176
-\l_iow_line_count_int=\count177
-\l__iow_line_target_int=\count178
-\l__iow_one_indent_int=\count179
-\l__iow_indent_int=\count180
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-cod
+e.tex"
+Package: expl3 2019-02-15 L3 programming layer (code)
+\c_max_int=\count171
+\l_tmpa_int=\count172
+\l_tmpb_int=\count173
+\g_tmpa_int=\count174
+\g_tmpb_int=\count175
+\g__kernel_prg_map_int=\count176
+\c_log_iow=\count177
+\l_iow_line_count_int=\count178
+\l__iow_line_target_int=\count179
+\l__iow_one_indent_int=\count180
+\l__iow_indent_int=\count181
 \c_zero_dim=\dimen191
 \c_max_dim=\dimen192
 \l_tmpa_dim=\dimen193
@@ -804,78 +859,78 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count181
-\l__intarray_loop_int=\count182
+\l_keys_choice_int=\count182
+\l__intarray_loop_int=\count183
 \c__intarray_sp_dim=\dimen197
-\g__intarray_font_int=\count183
-\c__fp_leading_shift_int=\count184
-\c__fp_middle_shift_int=\count185
-\c__fp_trailing_shift_int=\count186
-\c__fp_big_leading_shift_int=\count187
-\c__fp_big_middle_shift_int=\count188
-\c__fp_big_trailing_shift_int=\count189
-\c__fp_Bigg_leading_shift_int=\count190
-\c__fp_Bigg_middle_shift_int=\count191
-\c__fp_Bigg_trailing_shift_int=\count192
-\c__kernel_randint_max_int=\count193
-\g__fp_array_int=\count194
-\l__fp_array_loop_int=\count195
-\l__sort_length_int=\count196
-\l__sort_min_int=\count197
-\l__sort_top_int=\count198
-\l__sort_max_int=\count199
-\l__sort_true_max_int=\count266
-\l__sort_block_int=\count267
-\l__sort_begin_int=\count268
-\l__sort_end_int=\count269
-\l__sort_A_int=\count270
-\l__sort_B_int=\count271
-\l__sort_C_int=\count272
-\l__tl_analysis_normal_int=\count273
-\l__tl_analysis_index_int=\count274
-\l__tl_analysis_nesting_int=\count275
-\l__tl_analysis_type_int=\count276
-\l__regex_internal_a_int=\count277
-\l__regex_internal_b_int=\count278
-\l__regex_internal_c_int=\count279
-\l__regex_balance_int=\count280
-\l__regex_group_level_int=\count281
-\l__regex_mode_int=\count282
-\c__regex_cs_in_class_mode_int=\count283
-\c__regex_cs_mode_int=\count284
-\l__regex_catcodes_int=\count285
-\l__regex_default_catcodes_int=\count286
-\c__regex_catcode_D_int=\count287
-\c__regex_catcode_S_int=\count288
-\c__regex_catcode_L_int=\count289
-\c__regex_catcode_O_int=\count290
-\c__regex_catcode_A_int=\count291
-\c__regex_all_catcodes_int=\count292
-\l__regex_show_lines_int=\count293
-\l__regex_min_state_int=\count294
-\l__regex_max_state_int=\count295
-\l__regex_left_state_int=\count296
-\l__regex_right_state_int=\count297
-\l__regex_capturing_group_int=\count298
-\l__regex_min_pos_int=\count299
-\l__regex_max_pos_int=\count300
-\l__regex_curr_pos_int=\count301
-\l__regex_start_pos_int=\count302
-\l__regex_success_pos_int=\count303
-\l__regex_curr_char_int=\count304
-\l__regex_curr_catcode_int=\count305
-\l__regex_last_char_int=\count306
-\l__regex_case_changed_char_int=\count307
-\l__regex_curr_state_int=\count308
-\l__regex_step_int=\count309
-\l__regex_min_active_int=\count310
-\l__regex_max_active_int=\count311
-\l__regex_replacement_csnames_int=\count312
-\l__regex_match_count_int=\count313
-\l__regex_min_submatch_int=\count314
-\l__regex_submatch_int=\count315
-\l__regex_zeroth_submatch_int=\count316
-\g__regex_trace_regex_int=\count317
+\g__intarray_font_int=\count184
+\c__fp_leading_shift_int=\count185
+\c__fp_middle_shift_int=\count186
+\c__fp_trailing_shift_int=\count187
+\c__fp_big_leading_shift_int=\count188
+\c__fp_big_middle_shift_int=\count189
+\c__fp_big_trailing_shift_int=\count190
+\c__fp_Bigg_leading_shift_int=\count191
+\c__fp_Bigg_middle_shift_int=\count192
+\c__fp_Bigg_trailing_shift_int=\count193
+\c__kernel_randint_max_int=\count194
+\g__fp_array_int=\count195
+\l__fp_array_loop_int=\count196
+\l__sort_length_int=\count197
+\l__sort_min_int=\count198
+\l__sort_top_int=\count199
+\l__sort_max_int=\count266
+\l__sort_true_max_int=\count267
+\l__sort_block_int=\count268
+\l__sort_begin_int=\count269
+\l__sort_end_int=\count270
+\l__sort_A_int=\count271
+\l__sort_B_int=\count272
+\l__sort_C_int=\count273
+\l__tl_analysis_normal_int=\count274
+\l__tl_analysis_index_int=\count275
+\l__tl_analysis_nesting_int=\count276
+\l__tl_analysis_type_int=\count277
+\l__regex_internal_a_int=\count278
+\l__regex_internal_b_int=\count279
+\l__regex_internal_c_int=\count280
+\l__regex_balance_int=\count281
+\l__regex_group_level_int=\count282
+\l__regex_mode_int=\count283
+\c__regex_cs_in_class_mode_int=\count284
+\c__regex_cs_mode_int=\count285
+\l__regex_catcodes_int=\count286
+\l__regex_default_catcodes_int=\count287
+\c__regex_catcode_D_int=\count288
+\c__regex_catcode_S_int=\count289
+\c__regex_catcode_L_int=\count290
+\c__regex_catcode_O_int=\count291
+\c__regex_catcode_A_int=\count292
+\c__regex_all_catcodes_int=\count293
+\l__regex_show_lines_int=\count294
+\l__regex_min_state_int=\count295
+\l__regex_max_state_int=\count296
+\l__regex_left_state_int=\count297
+\l__regex_right_state_int=\count298
+\l__regex_capturing_group_int=\count299
+\l__regex_min_pos_int=\count300
+\l__regex_max_pos_int=\count301
+\l__regex_curr_pos_int=\count302
+\l__regex_start_pos_int=\count303
+\l__regex_success_pos_int=\count304
+\l__regex_curr_char_int=\count305
+\l__regex_curr_catcode_int=\count306
+\l__regex_last_char_int=\count307
+\l__regex_case_changed_char_int=\count308
+\l__regex_curr_state_int=\count309
+\l__regex_step_int=\count310
+\l__regex_min_active_int=\count311
+\l__regex_max_active_int=\count312
+\l__regex_replacement_csnames_int=\count313
+\l__regex_match_count_int=\count314
+\l__regex_min_submatch_int=\count315
+\l__regex_submatch_int=\count316
+\l__regex_zeroth_submatch_int=\count317
+\g__regex_trace_regex_int=\count318
 \c_empty_box=\box78
 \l_tmpa_box=\box79
 \l_tmpb_box=\box80
@@ -903,9 +958,12 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l__coffin_aligned_internal_coffin=\box87
 \l_tmpa_coffin=\box88
 \l_tmpb_coffin=\box89
-\l__coffin_display_coffin=\box90
-\l__coffin_display_coord_coffin=\box91
-\l__coffin_display_pole_coffin=\box92
+\g_tmpa_coffin=\box90
+\g_tmpb_coffin=\box91
+\c__coffin_empty_coffin=\box92
+\l__coffin_display_coffin=\box93
+\l__coffin_display_coord_coffin=\box94
+\l__coffin_display_pole_coffin=\box95
 \l__coffin_display_offset_dim=\dimen269
 \l__coffin_display_x_dim=\dimen270
 \l__coffin_display_y_dim=\dimen271
@@ -917,134 +975,138 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen276
 \l__coffin_scaled_total_height_dim=\dimen277
 \l__coffin_scaled_width_dim=\dimen278
-\l__seq_internal_a_int=\count318
-\l__seq_internal_b_int=\count319
+\l__seq_internal_a_int=\count319
+\l__seq_internal_b_int=\count320
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
-File: l3pdfmode.def 2018-06-14 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count320
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode
+.def"
+File: l3pdfmode.def 2019-02-15 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count321
 ))
-Package: xparse 2018-05-12 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count321
-\g__xparse_grabber_int=\count322
-\l__xparse_m_args_int=\count323
-\l__xparse_mandatory_args_int=\count324
-\l__xparse_v_nesting_int=\count325
-)
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tcboxverb with sig. ' O{} v ' on line 128.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
-.................................................
-)
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcblistingsutf8.
-code.tex
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.13'
-(E:\applications\miktex\tex\latex\oberdiek\listingsutf8.sty
+Package: xparse 2018-10-17 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count322
+\g__xparse_grabber_int=\count323
+\l__xparse_m_args_int=\count324
+\l__xparse_mandatory_args_int=\count325
+\l__xparse_v_nesting_int=\count326
+))
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcblisti
+ngsutf8.code.tex"
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.20'
+
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\listingsu
+tf8.sty"
 Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
-\lst@mode=\count326
-\lst@gtempboxa=\box93
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+sty"
+\lst@mode=\count327
+\lst@gtempboxa=\box96
 \lst@token=\toks35
-\lst@length=\count327
+\lst@length=\count328
 \lst@currlwidth=\dimen279
-\lst@column=\count328
-\lst@pos=\count329
+\lst@column=\count329
+\lst@pos=\count330
 \lst@lostspace=\dimen280
 \lst@width=\dimen281
-\lst@newlines=\count330
-\lst@lineno=\count331
+\lst@newlines=\count331
+\lst@lineno=\count332
 \lst@maxwidth=\dimen282
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count332
-\lst@skipnumbers=\count333
-\lst@framebox=\box94
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.s
+ty"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count333
+\lst@skipnumbers=\count334
+\lst@framebox=\box97
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.
+cfg"
+File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
-(E:\applications\miktex\tex\generic\oberdiek\stringenc.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\stringe
+nc.sty"
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcblistings.code
-.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcblisti
+ngs.code.tex"
+Library (tcolorbox): 'tcblistings.code.tex' version '4.20'
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcblistingscore.
-code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcblisti
+ngscore.code.tex"
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.20'
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbprocessing.co
-de.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.13'
-(E:\applications\miktex\tex\latex\tools\shellesc.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbproce
+ssing.code.tex"
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.20'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\shellesc.sty
+"
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 ))
-\c@tcblisting=\count334
+\c@tcblisting=\count335
 )))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbexternal.code
-.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbexter
+nal.code.tex"
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.20'
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbmagazine.code
-.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbmagaz
+ine.code.tex"
+Library (tcolorbox): 'tcbmagazine.code.tex' version '4.20'
 )
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbvignette.code
-.tex
-Library (tcolorbox): 'tcbvignette.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbvigne
+tte.code.tex"
+Library (tcolorbox): 'tcbvignette.code.tex' version '4.20'
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\l
-ibraries\tikzlibraryfadings.code.tex
-File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlaye
+r\tikz\libraries\tikzlibraryfadings.code.tex"
+File: tikzlibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
 
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrary
-fadings.code.tex
-File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pg
+flibraryfadings.code.tex"
+File: pgflibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
 )))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbposter.code.t
-ex
-Library (tcolorbox): 'tcbposter.code.tex' version '4.13'
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbposte
+r.code.tex"
+Library (tcolorbox): 'tcbposter.code.tex' version '4.20'
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\marginnote\marginnote.sty
-Package: marginnote 2018/04/13 v1.3 non floating margin notes for LaTeX
-\c@mn@abspage=\count335
-) (C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\background\background.st
-y
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\marginnote\marginn
+ote.sty"
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count336
+)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\background\backgro
+und.sty"
 Package: background 2014/03/04 v2.1 background material
-(E:\applications\miktex\tex\latex\xkeyval\xkeyval.sty
+
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.st
+y"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(E:\applications\miktex\tex\generic\xkeyval\xkeyval.tex
-(E:\applications\miktex\tex\generic\xkeyval\xkvutils.tex
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.
+tex"
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils
+.tex"
 \XKV@toks=\toks36
 \XKV@tempa@toks=\toks37
 )
-\XKV@depth=\count336
+\XKV@depth=\count337
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\everypage\everypage.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\everypage\everypag
+e.sty"
 Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
-(E:\applications\miktex\tex\latex\tools\afterpage.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\afterpage.st
+y"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks38
-\AP@partial=\box95
-\AP@footins=\box96
-))
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\latex\soul\soul.sty
+\AP@partial=\box98
+\AP@footins=\box99
+)) ("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks39
 \SOUL@lasttoken=\toks40
@@ -1055,8 +1117,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ttwidth=\dimen283
 \SOUL@uldp=\dimen284
 \SOUL@ulht=\dimen285
-)
-(report_eYSIP.aux)
+) (report_eYSIP.aux)
 \openout1 = `report_eYSIP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -1073,42 +1134,49 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
 LaTeX Font Info:    ... okay on input line 74.
-\AtBeginShipoutBox=\box97
+\AtBeginShipoutBox=\box100
 Package hyperref Info: Link coloring ON on input line 74.
- (E:\applications\miktex\tex\latex\hyperref\nameref.sty
+
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.s
+ty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(E:\applications\miktex\tex\generic\oberdiek\gettitlestring.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitl
+estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count337
+\c@section@level=\count338
 )
 LaTeX Info: Redefining \ref on input line 74.
 LaTeX Info: Redefining \pageref on input line 74.
 LaTeX Info: Redefining \nameref on input line 74.
-
-(report_eYSIP.out) (report_eYSIP.out)
+ (report_eYSIP.out) (report_eYSIP.out)
 \@outlinefile=\write6
 \openout6 = `report_eYSIP.out'.
 
- ABD: EveryShipout initializing macros
-(C:\Users\Ashis\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+ABD: EveryShipout initializing macros
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
+\scratchcounter=\count339
 \scratchdimen=\dimen286
-\scratchbox=\box98
-\nofMPsegments=\count339
-\nofMParguments=\count340
+\scratchbox=\box101
+\nofMPsegments=\count340
+\nofMParguments=\count341
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count341
+\MPscratchCnt=\count342
 \MPscratchDim=\dimen287
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
 \everyMPtoPDFconversion=\toks45
-) (E:\applications\miktex\tex\latex\oberdiek\epstopdf-base.sty
+)
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(E:\applications\miktex\tex\latex\oberdiek\grfext.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1118,14 +1186,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\c@lstlisting=\count344
+\c@lstlisting=\count345
 
-(E:\applications\miktex\tex\latex\base\inputenc.sty
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks46
 \inpenc@posthook=\toks47
 )
-<logo.png, id=78, 123.46124pt x 131.49126pt>
+<logo.png, id=42, 123.46124pt x 131.49126pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 92.
@@ -1133,7 +1201,7 @@ Package pdftex.def Info: logo.png  used on input line 92.
  [1
 
 
-{C:/Users/Ashis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.png>
+{C:/Users/ashis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.png>
 ]
 Chapter 1.
 
@@ -1154,7 +1222,7 @@ Overfull \hbox (4.07866pt too wide) in paragraph at lines 99--110
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
 
-(E:\applications\miktex\tex\latex\base\omscmr.fd
+("C:\Users\ashis\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -1171,6 +1239,8 @@ l.117   \item  X
                 Bee(3) [1
 
 ]
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 117.
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 144.
@@ -1182,32 +1252,32 @@ Package pdftex.def Info: logo.png  used on input line 144.
 
 
 Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+Make it at least 34.65257pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
 
 [2]
-<gear1.png, id=101, 855.195pt x 576.35326pt>
+<gear1.png, id=69, 855.195pt x 576.35326pt>
 File: gear1.png Graphic file (type png)
 <use gear1.png>
 Package pdftex.def Info: gear1.png  used on input line 145.
 (pdftex.def)             Requested size: 171.03596pt x 115.2686pt.
-<gear2.png, id=103, 853.9905pt x 573.94424pt>
+<gear2.png, id=71, 853.9905pt x 573.94424pt>
 File: gear2.png Graphic file (type png)
 <use gear2.png>
 Package pdftex.def Info: gear2.png  used on input line 145.
 (pdftex.def)             Requested size: 170.79507pt x 114.7868pt.
-<gripplate.png, id=104, 854.59274pt x 574.5465pt>
+<gripplate.png, id=72, 854.59274pt x 574.5465pt>
 File: gripplate.png Graphic file (type png)
 <use gripplate.png>
 Package pdftex.def Info: gripplate.png  used on input line 147.
 (pdftex.def)             Requested size: 170.91551pt x 114.90726pt.
-<HoldingPlate.png, id=105, 853.38824pt x 573.94424pt>
+<HoldingPlate.png, id=73, 853.38824pt x 573.94424pt>
 File: HoldingPlate.png Graphic file (type png)
 <use HoldingPlate.png>
 Package pdftex.def Info: HoldingPlate.png  used on input line 148.
 (pdftex.def)             Requested size: 170.67462pt x 114.7868pt.
-<final.jpg, id=106, 4143.48pt x 2330.7075pt>
+<final.jpg, id=74, 4143.48pt x 2330.7075pt>
 File: final.jpg Graphic file (type jpg)
 <use final.jpg>
 Package pdftex.def Info: final.jpg  used on input line 150.
@@ -1220,15 +1290,8 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 156.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3 <./gear1.png> <./gear2.png> <./gripplate.png> <./HoldingPlate.png> <./final.
-jpg>]
+ [3 <./gear1.png> <./gear2.png> <./gripplate.png> <./HoldingPlate.png> <./final
+.jpg>]
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 180.
@@ -1237,15 +1300,8 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 180.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
-<aruco.png, id=134, 481.8pt x 361.35pt>
+ [4]
+<aruco.png, id=103, 481.8pt x 361.35pt>
 File: aruco.png Graphic file (type png)
 <use aruco.png>
 Package pdftex.def Info: aruco.png  used on input line 186.
@@ -1258,15 +1314,8 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 196.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5 <./aruco.png>]
-<capture.png, id=144, 282.30469pt x 292.09125pt>
+ [5 <./aruco.png>]
+<capture.png, id=113, 282.30469pt x 292.09125pt>
 File: capture.png Graphic file (type png)
 <use capture.png>
 Package pdftex.def Info: capture.png  used on input line 197.
@@ -1279,20 +1328,13 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 217.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6 <./capture.png>]
-<path2.jpg, id=157, 1284.8pt x 722.7pt>
+ [6 <./capture.png>]
+<path2.jpg, id=126, 1284.8pt x 722.7pt>
 File: path2.jpg Graphic file (type jpg)
 <use path2.jpg>
 Package pdftex.def Info: path2.jpg  used on input line 218.
 (pdftex.def)             Requested size: 385.44298pt x 216.81166pt.
-<path.jpg, id=158, 1284.8pt x 722.7pt>
+<path.jpg, id=127, 1284.8pt x 722.7pt>
 File: path.jpg Graphic file (type jpg)
 <use path.jpg>
 Package pdftex.def Info: path.jpg  used on input line 220.
@@ -1305,20 +1347,13 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 221.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7 <./path2.jpg>]
-<templatem.jpg, id=165, 748.59676pt x 233.07076pt>
+ [7 <./path2.jpg>]
+<templatem.jpg, id=134, 748.59676pt x 233.07076pt>
 File: templatem.jpg Graphic file (type jpg)
 <use templatem.jpg>
 Package pdftex.def Info: templatem.jpg  used on input line 227.
 (pdftex.def)             Requested size: 262.01279pt x 81.57597pt.
-<template.jpg, id=166, 487.22025pt x 389.0535pt>
+<template.jpg, id=135, 487.22025pt x 389.0535pt>
 File: template.jpg Graphic file (type jpg)
 <use template.jpg>
 Package pdftex.def Info: template.jpg  used on input line 229.
@@ -1331,20 +1366,13 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 230.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8 <./path.jpg> <./templatem.jpg>]
-<solutiongrid.jpg, id=173, 320.99925pt x 279.444pt>
+ [8 <./path.jpg> <./templatem.jpg>]
+<solutiongrid.jpg, id=142, 320.99925pt x 279.444pt>
 File: solutiongrid.jpg Graphic file (type jpg)
 <use solutiongrid.jpg>
 Package pdftex.def Info: solutiongrid.jpg  used on input line 238.
 (pdftex.def)             Requested size: 176.55013pt x 153.69467pt.
-<flowchart.jpg, id=174, 523.35526pt x 807.61725pt>
+<flowchart.jpg, id=143, 523.35526pt x 807.61725pt>
 File: flowchart.jpg Graphic file (type jpg)
 <use flowchart.jpg>
 Package pdftex.def Info: flowchart.jpg  used on input line 239.
@@ -1362,12 +1390,6 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 240.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [9 <./template.jpg> <./solutiongrid.jpg>]
 Overfull \vbox (13.71146pt too high) has occurred while \output is active []
 
@@ -1380,14 +1402,8 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 240.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [10 <./flowchart.jpg>]
-<obstacle.jpg, id=185, 546.843pt x 666.0885pt>
+<obstacle.jpg, id=155, 546.843pt x 666.0885pt>
 File: obstacle.jpg Graphic file (type jpg)
 <use obstacle.jpg>
 Package pdftex.def Info: obstacle.jpg  used on input line 240.
@@ -1400,14 +1416,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 251.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 <./obstacle.jpg>]
+ [11 <./obstacle.jpg>]
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 274.
@@ -1416,14 +1425,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 274.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12]
+ [12]
 Overfull \hbox (5.17705pt too wide) in paragraph at lines 276--278
 []$ 
  []
@@ -1449,45 +1451,54 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 322.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
-
-Package Fancyhdr Warning: \headheight is too small (26.0pt): 
- Make it at least 34.65257pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [14]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (report_eYSIP.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
-Package rerunfilecheck Info: File `report_eYSIP.out' has not changed.
-(rerunfilecheck)             Checksum: 26EC905C4968A6EC1890A816D10964C6;532.
+
+
+Package rerunfilecheck Warning: File `report_eYSIP.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report_eYSIP.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  26EC905C4968A6EC1890A816D10964C6;532.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 32944 strings out of 493305
- 657457 string characters out of 3141062
- 761383 words of memory out of 3000000
- 36007 multiletter control sequences out of 15000+200000
+ 33653 strings out of 493305
+ 677041 string characters out of 3129803
+ 772403 words of memory out of 3000000
+ 36707 multiletter control sequences out of 15000+200000
  542186 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,16n,101p,1321b,843s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/applica
-tions/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/applications/miktex/
-fonts/type1/public/amsfonts/cm/cmcsc10.pfb><E:/applications/miktex/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><E:/applications/miktex/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb><E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><E:/applic
-ations/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/applications/miktex/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/applications/miktex/fonts/type1/pu
-blic/amsfonts/cm/cmr17.pfb><E:/applications/miktex/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-E:/applications/miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><E:/application
-s/miktex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report_eYSIP.pdf (15 pages, 4871603 bytes).
+ 63i,16n,101p,1307b,844s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Users/ashis/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ashis/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ashis/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/a
+shis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b><C:/Users/ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi8.pfb><C:/Users/ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/ashis/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ashis/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ashis/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ashis/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y8.pfb><C:/Users/ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmti12.pfb>
+Output written on report_eYSIP.pdf (15 pages, 4869410 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
+ 250 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
