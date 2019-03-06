@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2019.3.6)  6 MAR 2019 08:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2019.3.6)  6 MAR 2019 08:18
 entering extended mode
 **./report_eYSIP.tex
 (report_eYSIP.tex
@@ -1193,7 +1193,7 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks46
 \inpenc@posthook=\toks47
 )
-<logo.png, id=42, 123.46124pt x 131.49126pt>
+<logo.png, id=78, 123.46124pt x 131.49126pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 92.
@@ -1257,27 +1257,27 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-<gear1.png, id=69, 855.195pt x 576.35326pt>
+<gear1.png, id=101, 855.195pt x 576.35326pt>
 File: gear1.png Graphic file (type png)
 <use gear1.png>
 Package pdftex.def Info: gear1.png  used on input line 145.
 (pdftex.def)             Requested size: 171.03596pt x 115.2686pt.
-<gear2.png, id=71, 853.9905pt x 573.94424pt>
+<gear2.png, id=103, 853.9905pt x 573.94424pt>
 File: gear2.png Graphic file (type png)
 <use gear2.png>
 Package pdftex.def Info: gear2.png  used on input line 145.
 (pdftex.def)             Requested size: 170.79507pt x 114.7868pt.
-<gripplate.png, id=72, 854.59274pt x 574.5465pt>
+<gripplate.png, id=104, 854.59274pt x 574.5465pt>
 File: gripplate.png Graphic file (type png)
 <use gripplate.png>
 Package pdftex.def Info: gripplate.png  used on input line 147.
 (pdftex.def)             Requested size: 170.91551pt x 114.90726pt.
-<HoldingPlate.png, id=73, 853.38824pt x 573.94424pt>
+<HoldingPlate.png, id=105, 853.38824pt x 573.94424pt>
 File: HoldingPlate.png Graphic file (type png)
 <use HoldingPlate.png>
 Package pdftex.def Info: HoldingPlate.png  used on input line 148.
 (pdftex.def)             Requested size: 170.67462pt x 114.7868pt.
-<final.jpg, id=74, 4143.48pt x 2330.7075pt>
+<final.jpg, id=106, 4143.48pt x 2330.7075pt>
 File: final.jpg Graphic file (type jpg)
 <use final.jpg>
 Package pdftex.def Info: final.jpg  used on input line 150.
@@ -1301,7 +1301,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 180.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [4]
-<aruco.png, id=103, 481.8pt x 361.35pt>
+<aruco.png, id=134, 481.8pt x 361.35pt>
 File: aruco.png Graphic file (type png)
 <use aruco.png>
 Package pdftex.def Info: aruco.png  used on input line 186.
@@ -1315,7 +1315,7 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 196.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [5 <./aruco.png>]
-<capture.png, id=113, 282.30469pt x 292.09125pt>
+<capture.png, id=144, 282.30469pt x 292.09125pt>
 File: capture.png Graphic file (type png)
 <use capture.png>
 Package pdftex.def Info: capture.png  used on input line 197.
@@ -1329,12 +1329,12 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 217.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [6 <./capture.png>]
-<path2.jpg, id=126, 1284.8pt x 722.7pt>
+<path2.jpg, id=157, 1284.8pt x 722.7pt>
 File: path2.jpg Graphic file (type jpg)
 <use path2.jpg>
 Package pdftex.def Info: path2.jpg  used on input line 218.
 (pdftex.def)             Requested size: 385.44298pt x 216.81166pt.
-<path.jpg, id=127, 1284.8pt x 722.7pt>
+<path.jpg, id=158, 1284.8pt x 722.7pt>
 File: path.jpg Graphic file (type jpg)
 <use path.jpg>
 Package pdftex.def Info: path.jpg  used on input line 220.
@@ -1348,12 +1348,12 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 221.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [7 <./path2.jpg>]
-<templatem.jpg, id=134, 748.59676pt x 233.07076pt>
+<templatem.jpg, id=165, 748.59676pt x 233.07076pt>
 File: templatem.jpg Graphic file (type jpg)
 <use templatem.jpg>
 Package pdftex.def Info: templatem.jpg  used on input line 227.
 (pdftex.def)             Requested size: 262.01279pt x 81.57597pt.
-<template.jpg, id=135, 487.22025pt x 389.0535pt>
+<template.jpg, id=166, 487.22025pt x 389.0535pt>
 File: template.jpg Graphic file (type jpg)
 <use template.jpg>
 Package pdftex.def Info: template.jpg  used on input line 229.
@@ -1367,12 +1367,12 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 230.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
  [8 <./path.jpg> <./templatem.jpg>]
-<solutiongrid.jpg, id=142, 320.99925pt x 279.444pt>
+<solutiongrid.jpg, id=173, 320.99925pt x 279.444pt>
 File: solutiongrid.jpg Graphic file (type jpg)
 <use solutiongrid.jpg>
 Package pdftex.def Info: solutiongrid.jpg  used on input line 238.
 (pdftex.def)             Requested size: 176.55013pt x 153.69467pt.
-<flowchart.jpg, id=143, 523.35526pt x 807.61725pt>
+<flowchart.jpg, id=174, 523.35526pt x 807.61725pt>
 File: flowchart.jpg Graphic file (type jpg)
 <use flowchart.jpg>
 Package pdftex.def Info: flowchart.jpg  used on input line 239.
@@ -1403,7 +1403,7 @@ Package pdftex.def Info: logo.png  used on input line 240.
 (pdftex.def)             Requested size: 28.45274pt x 30.30254pt.
 
 [10 <./flowchart.jpg>]
-<obstacle.jpg, id=155, 546.843pt x 666.0885pt>
+<obstacle.jpg, id=185, 546.843pt x 666.0885pt>
 File: obstacle.jpg Graphic file (type jpg)
 <use obstacle.jpg>
 Package pdftex.def Info: obstacle.jpg  used on input line 240.
@@ -1457,25 +1457,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (report_eYSIP.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
-
-
-Package rerunfilecheck Warning: File `report_eYSIP.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report_eYSIP.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  26EC905C4968A6EC1890A816D10964C6;532.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `report_eYSIP.out' has not changed.
+(rerunfilecheck)             Checksum: 26EC905C4968A6EC1890A816D10964C6;532.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 33653 strings out of 493305
- 677041 string characters out of 3129803
- 772403 words of memory out of 3000000
- 36707 multiletter control sequences out of 15000+200000
+ 33663 strings out of 493305
+ 677158 string characters out of 3129803
+ 773485 words of memory out of 3000000
+ 36717 multiletter control sequences out of 15000+200000
  542186 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,16n,101p,1307b,844s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1496,9 +1486,9 @@ pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
 sers/ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
 y8.pfb><C:/Users/ashis/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on report_eYSIP.pdf (15 pages, 4869410 bytes).
+Output written on report_eYSIP.pdf (15 pages, 4871601 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
+ 278 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
